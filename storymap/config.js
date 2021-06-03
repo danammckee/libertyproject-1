@@ -8,7 +8,7 @@ var config = {
     title: 'The Title Text of this Story',
     subtitle: 'A descriptive and interesting subtitle to draw in the reader',
     byline: 'By a Digital Storyteller',
-    footer: 'Source: source citations, etc.',
+    // footer: 'Source: source citations, etc.',
     chapters: [
         {
             id: 'slug-style-id',
