@@ -1,9 +1,9 @@
 var config = {
-    style: 'mapbox://styles/mapbox/streets-v11',
-    accessToken: 'YOUR_ACCESS_TOKEN',
-    showMarkers: true,
+    style: 'mapbox://styles/vanritto/ckpeq5qti0hqv17qfe1nxbpe1',
+    accessToken: 'pk.eyJ1IjoidmFucml0dG8iLCJhIjoiY2ttd3MwbmIxMGh2azJubjh5NHpmbWloaSJ9.cHakwI5tJ_9g4G56n5tlFQ',
+    showMarkers: false,
     markerColor: '#3FB1CE',
-    theme: 'light',
+    theme: 'liberty',
     use3dTerrain: false,
     title: 'The Title Text of this Story',
     subtitle: 'A descriptive and interesting subtitle to draw in the reader',
@@ -41,8 +41,255 @@ var config = {
             ]
         },
         {
-            id: 'other-identifier',
-            alignment: 'right',
+            id: 'stop-one',
+            alignment: 'left',
+            hidden: false,
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {
+                center: [-77.020636, 38.886900],
+                zoom: 8.5,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'stop-two',
+            alignment: 'left',
+            hidden: false,
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {
+                center: [-77.020636, 38.886900],
+                zoom: 8.5,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'stop-three',
+            alignment: 'left',
+            hidden: false,
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {
+                center: [-77.020636, 38.886900],
+                zoom: 8.5,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'stop-four',
+            alignment: 'left',
+            hidden: false,
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {
+                center: [-77.020636, 38.886900],
+                zoom: 8.5,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'stop-five',
+            alignment: 'left',
+            hidden: false,
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {
+                center: [-77.020636, 38.886900],
+                zoom: 8.5,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'stop-six',
+            alignment: 'left',
+            hidden: false,
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {
+                center: [-77.020636, 38.886900],
+                zoom: 8.5,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'stop-seven',
+            alignment: 'left',
+            hidden: false,
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {
+                center: [-77.020636, 38.886900],
+                zoom: 8.5,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'stop-eight',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'stop-nine',
+            alignment: 'left',
+            hidden: false,
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {
+                center: [-77.020636, 38.886900],
+                zoom: 8.5,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'stop-ten',
+            alignment: 'left',
+            hidden: false,
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {
+                center: [-77.020636, 38.886900],
+                zoom: 8.5,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'stop-eleven',
+            alignment: 'left',
+            hidden: false,
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {
+                center: [-77.020636, 38.886900],
+                zoom: 8.5,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'stop-twelve',
+            alignment: 'left',
+            hidden: false,
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {
+                center: [-77.020636, 38.886900],
+                zoom: 8.5,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'stop-thirteen',
+            alignment: 'left',
+            hidden: false,
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {
+                center: [-77.020636, 38.886900],
+                zoom: 8.5,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'stop-fourteen',
+            alignment: 'left',
+            hidden: false,
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {
+                center: [-77.020636, 38.886900],
+                zoom: 8.5,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'stop-fifteen',
+            alignment: 'left',
             hidden: false,
             title: 'Second Title',
             image: './path/to/image/source.png',
