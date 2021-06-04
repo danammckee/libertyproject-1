@@ -259,10 +259,20 @@ var map = new mapboxgl.Map({
     transformRequest: transformRequest
 });
 
+//// ADDED IN- POP UP AT START ///
+
+if (config.showPopup){
+    var popup = new mapboxgl.Popup({ closeOnClick: false })
+        popup.setLngLat(config.chapters[1].location.center).addTo(map)
+        .setHTML('<h1>START</h1>');
+}
+
 if (config.showMarkers) {
     var marker = new mapboxgl.Marker({ color: config.markerColor });
     marker.setLngLat(config.chapters[0].location.center).addTo(map);
 }
+
+
 
 // instantiate the scrollama
 var scroller = scrollama();

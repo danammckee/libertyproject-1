@@ -3,6 +3,7 @@ var config = {
     accessToken: 'pk.eyJ1IjoidmFucml0dG8iLCJhIjoiY2ttd3MwbmIxMGh2azJubjh5NHpmbWloaSJ9.cHakwI5tJ_9g4G56n5tlFQ',
     showMarkers: false,
     markerColor: '#3FB1CE',
+    showPopup: true,
     theme: 'liberty',
     use3dTerrain: false,
     // title: 'The Title Text of this Story',
