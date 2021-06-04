@@ -4,7 +4,7 @@ var config = {
     showMarkers: false,
     markerColor: '#3FB1CE',
     theme: 'liberty',
-    use3dTerrain: false,
+    use3dTerrain: true,
     // title: 'The Title Text of this Story',
     // subtitle: 'A descriptive and interesting subtitle to draw in the reader',
     // byline: 'By a Digital Storyteller',
