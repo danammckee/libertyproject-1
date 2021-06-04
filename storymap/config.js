@@ -20,18 +20,20 @@ var config = {
             location: {
                 center: [-87.077195, 48.785168],
                 zoom: 5.5,
-                pitch: 50,
+                pitch: 60,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                // {
+                 {      
+                    layer: 'stops-along-route',
+                    opacity: 0,
                 //     layer: 'layer-name',
                 //     opacity: 1,
                 //     duration: 5000
-                // }
+                }
             ],
             onChapterExit: [
                 // {
@@ -49,19 +51,19 @@ var config = {
             description: 'NEEDS NEW WORDS! The Liberty Project is a Christian faith-based non-profit established in Pemba, Northern Mozambique working with women who have been sexually exploited, abused and culturally oppressed. Our vision is to make disciples through sustainable initiatives lead by Local women. We are an organization empowering women to empower women.',
             location: {
                 center: [-89.21674, 48.43437],
-                zoom: 10,
-                pitch: 50,
-                bearing: 0
+                zoom: 13,
+                pitch: 60,
+                bearing: 10
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
+                {
+                    layer: 'stops-along-route',
+                    opacity: 0,
+                    // duration: 5000
+                }
             ],
             onChapterExit: [
                 // {
@@ -79,14 +81,19 @@ var config = {
             description: 'The Liberty Project is a Christian faith-based non-profit established in Pemba, Northern Mozambique working with women who have been sexually exploited, abused and culturally oppressed. Our vision is to make disciples through sustainable initiatives lead by Local women. We are an organization empowering women to empower women.',
             location: {
                 center: [-88.351609, 49.00186], // NIPIGON
-                zoom: 8.5,
+                zoom: 11,
                 pitch: 60,
-                bearing: -43.2
+                bearing: 20
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
+            onChapterEnter: [
+                {
+                layer: 'stops-along-route',
+                opacity: 1,
+                }
+            ],
             onChapterExit: []
         },
         {
@@ -98,9 +105,9 @@ var config = {
             description: 'We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.',
             location: {
                 center: [-87.077195, 48.785168], //Terrace Bay
-                zoom: 8.5,
-                pitch: 60,
-                bearing: -43.2
+                zoom: 11,
+                pitch: 70,
+                bearing: 40
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -117,9 +124,9 @@ var config = {
             description: 'We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.',
             location: {
                 center: [ -85.550095, 48.647444], // White River
-                zoom: 8.5,
-                pitch: 60,
-                bearing: -43.2
+                zoom: 11,
+                pitch: 70,
+                bearing: 50
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -136,9 +143,9 @@ var config = {
             description: 'The main areas that the Liberty Project works in is: Education, Health education, vocational training, trauma therapy.',
             location: {
                 center: [-84.84697, 48.041381], // WAWA
-                zoom: 8.5,
+                zoom: 12,
                 pitch: 60,
-                bearing: -43.2
+                bearing: 40
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -155,9 +162,9 @@ var config = {
             description: 'In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.',
             location: {
                 center: [ -84.748093, 47.472679], // LAKE SUPERIOR
-                zoom: 8.5,
+                zoom: 12,
                 pitch: 60,
-                bearing: -43.2
+                bearing: 40
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -174,9 +181,9 @@ var config = {
             description: 'We have partnered with CouldYou? Cup to help bring accessible menstrual education & management for women & girls in Northern Mozambique.                                                         “The Could You Cup gives me security and confidence while using during my menstrual cycle. It’s the best way to prevent the shame that we receive from people! I choose Could You Cup!” - Giniquina 14 years. What a powerful testimony from this beautiful one. We are so thankful to be able to help equip girls to manage their periods in a way that ends period shaming and keeps them in school! Thank you CouldYou? Cup for your partnership, Together we bring freedom and bright futures to precious girls in Northern Mozambqiue! #menstruationmatters #TheLibertyProject #Pemba',
             location: {
                 center: [-84.286667, 46.521092], // Sault Ste. Marie
-                zoom: 8.5,
+                zoom: 11,
                 pitch: 60,
-                bearing: -43.2
+                bearing: 20
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -193,11 +200,11 @@ var config = {
             description: 'In Northern Mozambique, 45% of women are unemployed. This  is why vocational training and education are a priority of the Liberty Project. As we are having to move to another province in Mozambique due to the conflict; partner with us to help bring vocational training to the women we work with! You can also support this through the Liberty Market Place as more of their projects are featured.',
             location: {
                 center: [-83.781296, 46.320395], // Bruce Mines
-                zoom: 8.5,
+                zoom: 11,
                 pitch: 60,
-                bearing: -43.2
+                bearing: -20
             },
-            mapAnimation: 'stop-eight',
+            mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
@@ -212,7 +219,7 @@ var config = {
             description: '70% of Women suffer from PTSD in Mozambique, and with the growing civil unrest and violent conflict we are only seeing increases of this type of severe trauma. This is why we offer holistic care including counselling, so that women can work through things in a peaceful atmosphere. If you want to partner with us and see women restored and transformed, donate today!',
             location: {
                 center: [-82.951829, 46.183651], // Blind River
-                zoom: 8.5,
+                zoom: 12,
                 pitch: 60,
                 bearing: -43.2
             },
@@ -231,9 +238,9 @@ var config = {
             description: "Our Board Chair is a cyclist and thought as a challenge wouldn't it be great to bike from her current home in Thunder Bay to her old home in Peterborough County. And thus idea was born. Thanks to Fleming College's collaboration project student team was able to build this webpage and mapping application to show case the challenge and help people get connected. We are excited to see the world wide reach of this fun fitness challenge and fundraiser.",
             location: {
                 center: [-81.776291, 46.259662], // Espanola
-                zoom: 8.5,
+                zoom: 12,
                 pitch: 60,
-                bearing: -43.2
+                bearing: -50.2
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -249,8 +256,8 @@ var config = {
             image: './images/photo-2.PNG',
             description: '95% of women in Mozambique have been sexually abused; and 70% of women suffer from PTSD. This is not okay. Throughout the global shut down for COVID-19 we have seen continual increases of exploitation and trafficking world wide. We are here in Mozambique doing preventative work to empower and educate women to help break the cycles of exploitation and poverty.',
             location: {
-                center: [-80.424973, 45.656305], //  Point au Baril
-                zoom: 8.5,
+                center: [ -81.056687,46.475716], //  SUDBURY
+                zoom: 11,
                 pitch: 60,
                 bearing: -43.2
             },
@@ -269,7 +276,7 @@ var config = {
             description: 'This ride has been such fun, even though it took a very different turn because of restrictions. Our Founder and Board Chair want to say a big thank you for everyone who donated, participated in the ride and shared our story with their friends & family!  We are excited to continue our journey in Northern Mozambique helping women to empower one another, & see the end of exploitation of women & children in Mozambique (& around the world).',
             location: {
                 center: [-80.424973, 45.656305], //  Point au Baril
-                zoom: 8.5,
+                zoom: 11,
                 pitch: 60,
                 bearing: -43.2
             },
@@ -288,8 +295,8 @@ var config = {
             description: 'WOMEN! Our ladies are wonderful and are the heart of the project. It is our absolute joy to journey with them as they start to experience true freedom when knowing their identity is found in Jesus’ love and purpose for them!   As our ministry shifts to an entirely different area in Northern Mozambique, please pray that we will continue to reach and support more women. We pray that God will provide us with the resources and strength to educate and empower the vulnerable through sharing the Gospel, teaching health and human rights and equipping women with new artisanal skills..',
             location: {
                 center: [-79.738328, 45.17431], // Parry Sound
-                zoom: 8.5,
-                pitch: 60,
+                zoom: 12,
+                pitch: 70,
                 bearing: -43.2
             },
             mapAnimation: 'flyTo',
@@ -307,8 +314,8 @@ var config = {
             description: 'Thank you for following our journey & for giving! This fundraiser will continue helping women be empowered, educated and to build a life free from exploitation.                                                       If you would like to participate in the virtual challenge please follow the link to our eventbrite, you will be emailed the link to the virtual race following your registration..',
             location: {
                 center: [-78.980271, 44.535692], // KAWARTHA LAKES
-                zoom: 8.5,
-                pitch: 60,
+                zoom: 11,
+                pitch: 65,
                 bearing: -43.2
             },
             mapAnimation: 'flyTo',
@@ -326,9 +333,9 @@ var config = {
             description: 'NEED OTHER WORDS! Thank you for following our journey & for giving! This fundraiser will continue helping women be empowered, educated and to build a life free from exploitation.                                                       If you would like to participate in the virtual challenge please follow the link to our eventbrite, you will be emailed the link to the virtual race following your registration.',
             location: {
                 center: [-78.319723, 44.30345], //Market Hall
-                zoom: 8.5,
+                zoom: 11,
                 pitch: 60,
-                bearing: -43.2
+                bearing: -20.2
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
