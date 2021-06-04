@@ -18,9 +18,9 @@ var config = {
             image: './images/photo-1.PNG',
             description: 'NEEDS NEW WORDS! The Liberty Project is a Christian faith-based non-profit established in Pemba, Northern Mozambique working with women who have been sexually exploited, abused and culturally oppressed. Our vision is to make disciples through sustainable initiatives lead by Local women. We are an organization empowering women to empower women.',
             location: {
-                center: [-122.418398, 37.759483],
-                zoom: 6,
-                pitch: 60,
+                center: [-89.21674, 48.43437],
+                zoom: 10,
+                pitch: 50,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
@@ -48,7 +48,7 @@ var config = {
             image: './images/photo-2.PNG',
             description: 'The Liberty Project is a Christian faith-based non-profit established in Pemba, Northern Mozambique working with women who have been sexually exploited, abused and culturally oppressed. Our vision is to make disciples through sustainable initiatives lead by Local women. We are an organization empowering women to empower women.',
             location: {
-                center: [-77.020636, 38.886900],
+                center: [-88.351609, 49.00186],
                 zoom: 8.5,
                 pitch: 60,
                 bearing: -43.2
