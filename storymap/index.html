@@ -264,7 +264,8 @@ var map = new mapboxgl.Map({
 if (config.showPopup){
     var popup = new mapboxgl.Popup({ closeOnClick: false })
         popup.setLngLat(config.chapters[1].location.center).addTo(map)
-        .setHTML('<h1>START</h1>');
+        .setHTML(config.chapters[0].label)
+        // .setHTML('<h1>START</h1>')
 }
 
 if (config.showMarkers) {
@@ -390,6 +391,8 @@ map.on("load", function() {
                 'circle-stroke-color': 'gray'
         }
         });
+
+        
 
 
 
