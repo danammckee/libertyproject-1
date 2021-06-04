@@ -60,9 +60,9 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'stops-along-route',
-                    opacity: 0,
-                    // duration: 5000
+                    // layer: 'stops-along-route',
+                    // opacity: 0,
+                    // // duration: 5000
                 }
             ],
             onChapterExit: [
@@ -90,8 +90,8 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                layer: 'stops-along-route',
-                opacity: 1,
+                // layer: 'stops-along-route',
+                // opacity: 1,
                 }
             ],
             onChapterExit: []

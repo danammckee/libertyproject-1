@@ -299,9 +299,12 @@ map.on("load", function() {
             'id': 'bikestop-layer',
             'type': 'circle',
             'source': 'bikestop',
+            'layout': {
+                'circle-sort-key': 2,
+            },
             'paint': {
                 'circle-radius': 8,
-                'circle-stroke-width': 2,
+                'circle-stroke-width': 3,
                 'circle-color': 'red',
                 'circle-stroke-color': 'white'
         }
@@ -325,14 +328,36 @@ map.on("load", function() {
             'type': 'line',
             'source': 'route',
             'layout': {
-            'line-join': 'round',
-            'line-cap': 'round'
+                'line-sort-key': 1,
+                'line-join': 'round',
+                'line-cap': 'round'
             },
             'paint': {
             'line-color': '#888',
             'line-width': 8
         }
         });
+        map.addSource('bikestop2', {
+            type: 'geojson',
+            // Use a URL for the value for the `data` property.
+            data: 'https://hollieegg.github.io/libertyproject/storymap/data/directionsOnly.geojson'
+        });
+        
+        map.addLayer({
+            'id': 'bikestop2-layer',
+            'type': 'circle',
+            'source': 'bikestop2',
+            'layout': {
+                'circle-sort-key': 3,
+            },
+            'paint': {
+                'circle-radius': 8,
+                'circle-stroke-width': 2,
+                'circle-color': 'red',
+                'circle-stroke-color': 'green'
+        }
+        });
+
 
 
     // setup the instance, pass callback functions
