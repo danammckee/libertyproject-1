@@ -392,6 +392,27 @@ map.on("load", function() {
         }
         });
 
+        map.addSource('bikestop4', {
+            type: 'geojson',
+            // Use a URL for the value for the `data` property.
+            data: 'https://hollieegg.github.io/libertyproject/storymap/data/StopsOnly3.geojson'
+        });
+        
+        map.addLayer({
+            'id': 'bikestop4-layer',
+            'type': 'symbol',
+            'icon-image': 'https://hollieegg.github.io/libertyproject/storymap/icons/Stopsnew-01.svg',
+            'source': 'bikestop4',
+            'layout': {
+                'symbol-sort-key': 3,
+            }
+        //     'paint': {
+        //         'circle-radius': 12,
+        //         'circle-stroke-width': 2,
+        //         'circle-color': 'pink',
+        //         'circle-stroke-color': 'gray'
+        // }
+        });
         
 
 
