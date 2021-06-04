@@ -342,6 +342,38 @@ var config = {
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
-        }
+        },
+        {
+            id: 'overview-2',
+            alignment: 'left',
+            hidden: false,
+            title: 'TITLE / OVERVIEW OF ROUTE - ',
+            image: './images/photo-1.PNG',
+            description: '',
+            location: {
+                center: [-87.077195, 48.785168],
+                zoom: 5.5,
+                pitch: 60,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                 {      
+                    layer: 'stops-along-route',
+                    opacity: 0,
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
     ]
 };
