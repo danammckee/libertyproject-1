@@ -268,7 +268,7 @@ if (config.showMarkers) {
 var scroller = scrollama();
 
 map.on("load", function() {
-    if (config.use3dTerrain) {
+    // if (config.use3dTerrain) {
         map.addSource('mapbox-dem', {
             'type': 'raster-dem',
             'url': 'mapbox://mapbox.mapbox-terrain-dem-v1',
@@ -288,7 +288,52 @@ map.on("load", function() {
                 'sky-atmosphere-sun-intensity': 15
             }
         });
-    };
+
+        map.addSource('bikestop', {
+            type: 'geojson',
+            // Use a URL for the value for the `data` property.
+            data: 'https://hollieegg.github.io/libertyproject/storymap/data/directionsOnly.geojson'
+        });
+        
+        map.addLayer({
+            'id': 'bikestop-layer',
+            'type': 'circle',
+            'source': 'bikestop',
+            'paint': {
+                'circle-radius': 8,
+                'circle-stroke-width': 2,
+                'circle-color': 'red',
+                'circle-stroke-color': 'white'
+        }
+        });
+
+        
+        map.addSource('route', {
+            type: 'geojson',
+            data: 'https://hollieegg.github.io/libertyproject/storymap/data/directionsOnly.geojson'
+            // 'data': {
+            // 'type': 'Feature',
+            // 'properties': {},
+            // 'geometry': {
+            // 'type': 'LineString',
+            // 'coordinates': []
+            // }
+            // }
+        });
+        map.addLayer({
+            'id': 'route',
+            'type': 'line',
+            'source': 'route',
+            'layout': {
+            'line-join': 'round',
+            'line-cap': 'round'
+            },
+            'paint': {
+            'line-color': '#888',
+            'line-width': 8
+        }
+        });
+
 
     // setup the instance, pass callback functions
     scroller
