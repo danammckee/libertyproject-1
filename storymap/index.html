@@ -289,26 +289,26 @@ map.on("load", function() {
             }
         });
 
-        map.addSource('bikestop', {
-            type: 'geojson',
-            // Use a URL for the value for the `data` property.
-            data: 'https://hollieegg.github.io/libertyproject/storymap/data/directionsOnly.geojson'
-        });
+        // map.addSource('bikestop', {
+        //     type: 'geojson',
+        //     // Use a URL for the value for the `data` property.
+        //     data: 'https://hollieegg.github.io/libertyproject/storymap/data/directionsOnly.geojson'
+        // });
         
-        map.addLayer({
-            'id': 'bikestop-layer',
-            'type': 'circle',
-            'source': 'bikestop',
-            'layout': {
-                'circle-sort-key': 2,
-            },
-            'paint': {
-                'circle-radius': 8,
-                'circle-stroke-width': 3,
-                'circle-color': 'red',
-                'circle-stroke-color': 'white'
-        }
-        });
+        // map.addLayer({
+        //     'id': 'bikestop-layer',
+        //     'type': 'circle',
+        //     'source': 'bikestop',
+        //     'layout': {
+        //         'circle-sort-key': 1,
+        //     },
+        //     'paint': {
+        //         'circle-radius': 8,
+        //         'circle-stroke-width': 3,
+        //         'circle-color': 'red',
+        //         'circle-stroke-color': 'white'
+        // }
+        // });
 
         
         map.addSource('route', {
@@ -337,6 +337,8 @@ map.on("load", function() {
             'line-width': 8
         }
         });
+
+        
         map.addSource('bikestop2', {
             type: 'geojson',
             // Use a URL for the value for the `data` property.
@@ -357,6 +359,28 @@ map.on("load", function() {
                 'circle-stroke-color': 'green'
         }
         });
+
+        map.addSource('bikestop3', {
+            type: 'geojson',
+            // Use a URL for the value for the `data` property.
+            data: 'https://hollieegg.github.io/libertyproject/storymap/data/StopsOnly.geojson'
+        });
+        
+        map.addLayer({
+            'id': 'bikestop3-layer',
+            'type': 'circle',
+            'source': 'bikestop3',
+            'layout': {
+                'circle-sort-key': 3,
+            },
+            'paint': {
+                'circle-radius': 12,
+                'circle-stroke-width': 2,
+                'circle-color': 'pink',
+                'circle-stroke-color': 'gray'
+        }
+        });
+
 
 
 
