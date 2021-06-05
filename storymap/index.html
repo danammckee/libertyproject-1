@@ -350,47 +350,81 @@ map.on("load", function() {
         });
 
         
-        map.addSource('bikestop2', {
-            type: 'geojson',
-            // Use a URL for the value for the `data` property.
-            data: 'https://hollieegg.github.io/libertyproject/storymap/data/directionsOnly.geojson'
-        });
+        // map.addSource('bikestop2', {
+        //     type: 'geojson',
+        //     // Use a URL for the value for the `data` property.
+        //     data: 'https://hollieegg.github.io/libertyproject/storymap/data/directionsOnly.geojson'
+        // });
         
-        map.addLayer({
-            'id': 'bikestop2-layer',
-            'type': 'circle',
-            'source': 'bikestop2',
-            'layout': {
-                'circle-sort-key': 3,
-            },
-            'paint': {
-                'circle-radius': 2,
-                'circle-stroke-width': 2,
-                'circle-color': 'red',
-                'circle-stroke-color': 'green'
-        }
-        });
+        // map.addLayer({
+        //     'id': 'bikestop2-layer',
+        //     'type': 'circle',
+        //     'source': 'bikestop2',
+        //     'layout': {
+        //         'circle-sort-key': 3,
+        //     },
+        //     'paint': {
+        //         'circle-radius': 2,
+        //         'circle-stroke-width': 2,
+        //         'circle-color': 'red',
+        //         'circle-stroke-color': 'green'
+        // }
+        // });
 
-        map.addSource('bikestop3', {
-            type: 'geojson',
-            // Use a URL for the value for the `data` property.
-            data: 'https://hollieegg.github.io/libertyproject/storymap/data/StopsOnly3.geojson'
-        });
+        // map.addSource('bikestop3', {
+        //     type: 'geojson',
+        //     // Use a URL for the value for the `data` property.
+        //     data: 'https://hollieegg.github.io/libertyproject/storymap/data/StopsOnly3.geojson'
+        // });
         
-        map.addLayer({
-            'id': 'bikestop3-layer',
-            'type': 'circle',
-            'source': 'bikestop3',
-            'layout': {
-                'circle-sort-key': 3,
-            },
-            'paint': {
-                'circle-radius': 12,
-                'circle-stroke-width': 2,
-                'circle-color': 'pink',
-                'circle-stroke-color': 'gray'
-        }
-        });
+        // map.addLayer({
+        //     'id': 'bikestop3-layer',
+        //     'type': 'circle',c
+        //     'source': 'bikestop3',
+        //     'layout': {
+        //         'circle-sort-key': 3,
+        //     },
+        //     'paint': {
+        //         'circle-radius': 12,
+        //         'circle-stroke-width': 2,
+        //         'circle-color': 'pink',
+        //         'circle-stroke-color': 'gray'
+        // }
+        // });
+
+
+
+
+  
+
+        // map.addSource('bikestop3', {
+        //     type: 'geojson',
+        //     // Use a URL for the value for the `data` property.
+        //     data: 'https://hollieegg.github.io/libertyproject/storymap/data/StopsOnly3.geojson'
+        // });
+        
+        // map.addLayer({
+        //     'id': 'stops',
+        //     'type': 'symbol',
+        //     'source': 'bikestop3',
+        //     'layout': {
+        //         'icon-image': 'Stopsnew-14-09'
+        //     },
+        //     'paint': {
+        //         'circle-radius': 12,
+        //         'circle-stroke-width': 2,
+        //         'circle-color': 'pink',
+        //         'circle-stroke-color': 'gray'
+        // }
+        // // });
+
+        // map.addImage('bikestop3', {
+        // //     type: 'geojson',
+        //     // Use a URL for the value for the `data` property.
+        //     data: 'https://hollieegg.github.io/libertyproject/storymap/data/StopsOnly3.geojson'
+        // });
+   
+
 
       
 
@@ -437,7 +471,6 @@ map.on("load", function() {
         }
     });
 });
-
 // setup resize event
 window.addEventListener('resize', scroller.resize);
 
