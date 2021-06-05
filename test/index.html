@@ -26,8 +26,9 @@ center: [-77.432, 25.0306] // starting position
 map.on('load', function () {
 // Load an image from an external URL.
 map.loadImage(
-'https://upload.wikimedia.org/wikipedia/commons/7/7c/201408_cat.png',
+// 'https://upload.wikimedia.org/wikipedia/commons/7/7c/201408_cat.png',
 // 'https://hollieegg.github.io/libertyproject/storymap/icons/stops.png',
+'https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_GB_UEL.png',
 function (error, image) {
 if (error) throw error;
  
@@ -58,7 +59,7 @@ map.addLayer({
 'source': 'point', // reference the data source
 'layout': {
 'icon-image': 'cat', // reference the image
-'icon-size': 0.25
+'icon-size': 1
 }
 });
 }
