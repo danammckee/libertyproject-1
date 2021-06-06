@@ -385,8 +385,8 @@ var config = {
       callback: "",
       onChapterEnter: [
         {
-          layer: "stops-along-route",
-          opacity: 0,
+          //   layer: "stops-along-route",
+          //   opacity: 0,
           //     layer: 'layer-name',
           //     opacity: 1,
           //     duration: 5000
