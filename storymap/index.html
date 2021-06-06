@@ -314,32 +314,8 @@
           },
         });
 
-        // map.addSource('bikestop', {
-        //     type: 'geojson',
-        //     // Use a URL for the value for the `data` property.
-        //     data: 'https://hollieegg.github.io/libertyproject/storymap/data/directionsOnly.geojson'
-        // });
-
-        // map.addLayer({
-        //     'id': 'bikestop-layer',
-        //     'type': 'circle',
-        //     'source': 'bikestop',
-        //     'layout': {
-        //         'circle-sort-key': 1,
-        //     },
-        //     'paint': {
-        //         'circle-radius': 8,
-        //         'circle-stroke-width': 3,
-        //         'circle-color': 'red',
-        //         'circle-stroke-color': 'white'
-        // }
-        // });
-        //         map.loadImage(
-        // // 'https://upload.wikimedia.org/wikipedia/commons/7/7c/201408_cat.png',
-        // 'https://hollieegg.github.io/libertyproject/storymap/icons/Stops.png',
-        // // 'https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_GB_UEL.png',
-        // function (error, image) {
-        // if (error) throw error;
+        // ADDING ACUSTOM ICON FOR THE STOPS USING load image with a function within. If no error then proceeds with loading image and
+        // ensurting it is added.
         map.loadImage(
           "https://hollieegg.github.io/libertyproject/storymap/icons/Stops.png",
           function (error, image) {
@@ -351,23 +327,6 @@
               type: "geojson",
               data: "https://hollieegg.github.io/libertyproject/storymap/data/StopsOnly3.geojson",
             });
-
-            // Add a data source containing one point feature.
-            // map.addSource("point", {
-            //   type: "geojson",
-            //   data: {
-            //     type: "FeatureCollection",
-            //     features: [
-            //       {
-            //         type: "Feature",
-            //         geometry: {
-            //           type: "Point",
-            //           coordinates: [-88.351609, 49.00186],
-            //         },
-            //       },
-            //     ],
-            //   },
-            // });
 
             // Add a layer to use the image to represent the data.
             map.addLayer({
@@ -382,18 +341,88 @@
           }
         );
 
+        // START ICON
+
+        map.loadImage(
+          "https://hollieegg.github.io/libertyproject/storymap/icons/Stops.png",
+          function (error, image2) {
+            if (error) throw error;
+
+            map.addImage("start", image2);
+
+            // Add a data source containing one point feature.
+            map.addSource("startpoint", {
+              type: "geojson",
+              data: {
+                type: "FeatureCollection",
+                features: [
+                  {
+                    type: "Feature",
+                    geometry: {
+                      type: "Point",
+                      coordinates: [-89.216598, 48.434311],
+                    },
+                  },
+                ],
+              },
+            });
+
+            // Add a layer to use the image to represent the data.
+            map.addLayer({
+              id: "startingpoint",
+              type: "symbol",
+              source: "startpoint", // reference the data source
+              layout: {
+                "icon-image": "start", // reference the image
+                "icon-size": 1,
+              },
+            });
+          }
+        );
+
+        // Finish ICON
+
+        map.loadImage(
+          "https://upload.wikimedia.org/wikipedia/commons/7/7c/201408_cat.png",
+          function (error, image3) {
+            if (error) throw error;
+
+            map.addImage("finish", image3);
+
+            // Add a data source containing one point feature.
+            map.addSource("finishpoint", {
+              type: "geojson",
+              data: {
+                type: "FeatureCollection",
+                features: [
+                  {
+                    type: "Feature",
+                    geometry: {
+                      type: "Point",
+                      coordinates: [-83.781296, 46.320395],
+                    },
+                  },
+                ],
+              },
+            });
+
+            // Add a layer to use the image to represent the data.
+            map.addLayer({
+              id: "finishingpoint",
+              type: "symbol",
+              source: "finishpoint", // reference the data source
+              layout: {
+                "icon-image": "finish", // reference the image
+                "icon-size": 1,
+              },
+            });
+          }
+        );
+
         // ROUTE LINE ///
         map.addSource("route", {
           type: "geojson",
           data: "https://hollieegg.github.io/libertyproject/storymap/data/directionsOnly.geojson",
-          // 'data': {
-          // 'type': 'Feature',
-          // 'properties': {},
-          // 'geometry': {
-          // 'type': 'LineString',
-          // 'coordinates': []
-          // }
-          // }
         });
         map.addLayer({
           id: "route",
@@ -409,48 +438,6 @@
             "line-width": 8,
           },
         });
-
-        // map.addSource('bikestop2', {
-        //     type: 'geojson',
-        //     // Use a URL for the value for the `data` property.
-        //     data: 'https://hollieegg.github.io/libertyproject/storymap/data/directionsOnly.geojson'
-        // });
-
-        // map.addLayer({
-        //     'id': 'bikestop2-layer',
-        //     'type': 'circle',
-        //     'source': 'bikestop2',
-        //     'layout': {
-        //         'circle-sort-key': 3,
-        //     },
-        //     'paint': {
-        //         'circle-radius': 2,
-        //         'circle-stroke-width': 2,
-        //         'circle-color': 'red',
-        //         'circle-stroke-color': 'green'
-        // }
-        // });
-
-        // map.addSource('bikestop3', {
-        //     type: 'geojson',
-        //     // Use a URL for the value for the `data` property.
-        //     data: 'https://hollieegg.github.io/libertyproject/storymap/data/StopsOnly3.geojson'
-        // });
-
-        // map.addLayer({
-        //     'id': 'bikestop3-layer',
-        //     'type': 'circle',c
-        //     'source': 'bikestop3',
-        //     'layout': {
-        //         'circle-sort-key': 3,
-        //     },
-        //     'paint': {
-        //         'circle-radius': 12,
-        //         'circle-stroke-width': 2,
-        //         'circle-color': 'pink',
-        //         'circle-stroke-color': 'gray'
-        // }
-        // });
 
         // setup the instance, pass callback functions
         scroller
