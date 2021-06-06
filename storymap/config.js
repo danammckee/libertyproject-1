@@ -184,7 +184,7 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
+      onChapterEnter: [{}],
       onChapterExit: [],
     },
     {
@@ -204,7 +204,7 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
+      onChapterEnter: [{}],
       onChapterExit: [],
     },
     {
@@ -224,7 +224,7 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
+      onChapterEnter: [{}],
       onChapterExit: [],
     },
     {
@@ -244,7 +244,7 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
+      onChapterEnter: [{}],
       onChapterExit: [],
     },
     {
@@ -264,7 +264,7 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
+      onChapterEnter: [{}],
       onChapterExit: [],
     },
     {
@@ -284,7 +284,7 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
+      onChapterEnter: [{}],
       onChapterExit: [],
     },
     {
@@ -304,7 +304,7 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
+      onChapterEnter: [{}],
       onChapterExit: [],
     },
     {
@@ -324,7 +324,7 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
+      onChapterEnter: [{}],
       onChapterExit: [],
     },
     {
