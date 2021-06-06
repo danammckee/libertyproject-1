@@ -393,6 +393,7 @@ var config = {
         },
       ],
       onChapterExit: [
+        {},
         // {
         //     layer: 'layer-name',
         //     opacity: 0
