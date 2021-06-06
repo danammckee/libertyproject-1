@@ -61,11 +61,11 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                {
-                    layer: 'stops-along-route',
-                    opacity: 1
-                    // duration: 5000
-                }
+                // {
+                //     layer: 'stops-along-route',
+                //     opacity: 1
+                //     // duration: 5000
+                // }
             ],
             onChapterExit: [
                 // {
