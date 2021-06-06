@@ -118,7 +118,12 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
+      onChapterEnter: [
+        {
+          // layer: 'stops-along-route',
+          // opacity: 1,
+        },
+      ],
       onChapterExit: [],
     },
     {
