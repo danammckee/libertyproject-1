@@ -63,6 +63,7 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
+        {},
         // {
         //     layer: 'stops-along-route',
         //     opacity: 1
@@ -143,7 +144,7 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
+      onChapterEnter: [{}],
       onChapterExit: [],
     },
     {
@@ -163,7 +164,7 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
+      onChapterEnter: [{}],
       onChapterExit: [],
     },
     {
@@ -343,7 +344,7 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
+      onChapterEnter: [{}],
       onChapterExit: [],
     },
     {
@@ -363,7 +364,7 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
+      onChapterEnter: [{}],
       onChapterExit: [],
     },
     {
