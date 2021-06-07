@@ -225,7 +225,9 @@
               source: "point", // reference the data source
               layout: {
                 "icon-image": "stop", // reference the image
-                "icon-size": 0.15,
+                "icon-size": 0.2,
+                "icon-anchor": "bottom",
+                "icon-allow-overlap": true,
               },
             });
           }
@@ -274,7 +276,7 @@
         // Finish ICON
 
         map.loadImage(
-          "https://upload.wikimedia.org/wikipedia/commons/7/7c/201408_cat.png",
+          "https://hollieegg.github.io/libertyproject/storymap/icons/finish.png",
           function (error, image3) {
             if (error) throw error;
 
