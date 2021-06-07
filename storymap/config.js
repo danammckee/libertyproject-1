@@ -38,7 +38,8 @@ var config = {
         },
       ],
       onChapterExit: [
-        // {
+        {},
+        // {{}
         //     layer: 'layer-name',
         //     opacity: 0
         // }
@@ -71,6 +72,7 @@ var config = {
         // }
       ],
       onChapterExit: [
+        {},
         // {
         //     layer: 'layer-name',
         //     opacity: 0
@@ -100,7 +102,7 @@ var config = {
           // opacity: 1,
         },
       ],
-      onChapterExit: [],
+      onChapterExit: [{}],
     },
     {
       id: "stop-two",
@@ -125,7 +127,7 @@ var config = {
           // opacity: 1,
         },
       ],
-      onChapterExit: [],
+      onChapterExit: [{}],
     },
     {
       id: "stop-three",
@@ -145,7 +147,7 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [{}],
-      onChapterExit: [],
+      onChapterExit: [{}],
     },
     {
       id: "stop-four",
@@ -165,7 +167,7 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [{}],
-      onChapterExit: [],
+      onChapterExit: [{}],
     },
     {
       id: "stop-five",
@@ -185,7 +187,7 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [{}],
-      onChapterExit: [],
+      onChapterExit: [{}],
     },
     {
       id: "stop-six",
@@ -205,7 +207,7 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [{}],
-      onChapterExit: [],
+      onChapterExit: [{}],
     },
     {
       id: "stop-seven",
@@ -225,7 +227,7 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [{}],
-      onChapterExit: [],
+      onChapterExit: [{}],
     },
     {
       id: "stop-nine",
@@ -245,7 +247,7 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [{}],
-      onChapterExit: [],
+      onChapterExit: [{}],
     },
     {
       id: "stop-ten",
@@ -265,7 +267,7 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [{}],
-      onChapterExit: [],
+      onChapterExit: [{}],
     },
     {
       id: "stop-eleven",
@@ -285,7 +287,7 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [{}],
-      onChapterExit: [],
+      onChapterExit: [{}],
     },
     {
       id: "stop-twelve",
@@ -298,14 +300,14 @@ var config = {
       location: {
         center: [-80.424973, 45.656305], //  Point au Baril
         zoom: 11,
-        pitch: 60,
+        pitch: 70,
         bearing: -43.2,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [{}],
-      onChapterExit: [],
+      onChapterExit: [{}],
     },
     {
       id: "stop-thirteen",
@@ -325,7 +327,7 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [{}],
-      onChapterExit: [],
+      onChapterExit: [{}],
     },
     {
       id: "stop-fourteen",
@@ -345,7 +347,7 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [{}],
-      onChapterExit: [],
+      onChapterExit: [{}],
     },
     {
       id: "stop-fifteen",
@@ -365,7 +367,7 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [{}],
-      onChapterExit: [],
+      onChapterExit: [{}],
     },
     {
       id: "overview-2",

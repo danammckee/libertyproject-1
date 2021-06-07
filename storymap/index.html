@@ -163,7 +163,7 @@
         transformRequest: transformRequest,
       });
 
-      //// ADDED IN- POP UP AT START ///
+      // ADDED IN- POP UP AT START ///
 
       // if (config.showPopup) {
       //   var popup = new mapboxgl.Popup({ closeOnClick: false });
@@ -191,7 +191,7 @@
           maxzoom: 7,
         });
         // add the DEM source as a terrain layer with exaggerated height
-        map.setTerrain({ source: "mapbox-dem", exaggeration: 1.75 });
+        map.setTerrain({ source: "mapbox-dem", exaggeration: 1.5 });
 
         // add a sky layer that will show when the map is highly pitched
         map.addLayer({
