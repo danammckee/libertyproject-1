@@ -29,11 +29,12 @@ a:visited {
 }
 #footer {
   width: 100%;
-  min-height: 5vh;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
+  /* min-height: 5vh; */
+  height: 30px;
+  /* padding-top: 2vh;
+  padding-bottom: 2vh; */
   text-align: center;
-  line-height: 25px;
+  line-height: 20px;
   font-size: 13px;
   position: relative;
   z-index: 5;
