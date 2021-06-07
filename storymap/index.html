@@ -207,7 +207,7 @@
         // ADDING ACUSTOM ICON FOR THE STOPS USING load image with a function within. If no error then proceeds with loading image and
         // ensurting it is added.
         map.loadImage(
-          "https://hollieegg.github.io/libertyproject/storymap/icons/Stops.png",
+          "https://hollieegg.github.io/libertyproject/storymap/icons/stop.png",
           function (error, image) {
             if (error) throw error;
 
@@ -225,7 +225,7 @@
               source: "point", // reference the data source
               layout: {
                 "icon-image": "stop", // reference the image
-                "icon-size": 1,
+                "icon-size": 0.15,
               },
             });
           }
@@ -234,7 +234,7 @@
         // START ICON
 
         map.loadImage(
-          "https://hollieegg.github.io/libertyproject/storymap/icons/Stops.png",
+          "https://hollieegg.github.io/libertyproject/storymap/icons/start.png",
           function (error, image2) {
             if (error) throw error;
 
@@ -264,7 +264,7 @@
               source: "startpoint", // reference the data source
               layout: {
                 "icon-image": "start", // reference the image
-                "icon-size": 1,
+                "icon-size": 0.25,
               },
             });
           }
@@ -303,7 +303,7 @@
               source: "finishpoint", // reference the data source
               layout: {
                 "icon-image": "finish", // reference the image
-                "icon-size": 1,
+                "icon-size": 0.25,
               },
             });
           }
