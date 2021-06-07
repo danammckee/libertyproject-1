@@ -80,6 +80,8 @@ a:visited {
 .liberty {
   color: #3d3d3d;
   background-color: #f3a9cc;
+  /* border: 3px solid rgba(255, 255, 255, 0.349); */
+  border-left: 20px solid rgb(184, 19, 148);
 }
 
 .step div {

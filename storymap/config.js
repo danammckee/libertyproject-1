@@ -20,10 +20,10 @@ var config = {
       image: "./images/photo-1.PNG",
       description: "",
       location: {
-        center: [-87.077195, 48.785168],
+        center: [-87.077195, 45.785168],
         zoom: 5,
-        pitch: 60,
-        bearing: 0,
+        pitch: 40,
+        bearing: -5,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
