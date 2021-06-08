@@ -17,7 +17,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Ride 4 Freedom",
-      image: "./images/photo-9.JPG",
+      image: "./images/photo-9c.jpg",
       description: "",
       location: {
         center: [-87.077195, 45.785168],
