@@ -17,7 +17,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "TITLE / OVERVIEW OF ROUTE - ",
-      image: "./images/photo-1.PNG",
+      image: "./images/photo-9.JPG",
       description: "",
       location: {
         center: [-87.077195, 45.785168],
@@ -50,7 +50,7 @@ var config = {
       hidden: false,
       title: "START: Mozambique and The Liberty Project",
       // label: "<h1/>START</h1>",
-      image: "./images/photo-1.PNG",
+      image: "./images/photo-4.JPG",
       description:
         "NEEDS NEW WORDS! The Liberty Project is a Christian faith-based non-profit established in Pemba, Northern Mozambique working with women who have been sexually exploited, abused and culturally oppressed. Our vision is to make disciples through sustainable initiatives lead by Local women. We are an organization empowering women to empower women.",
       location: {
