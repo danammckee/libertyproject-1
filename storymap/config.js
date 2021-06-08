@@ -16,7 +16,7 @@ var config = {
       id: "overview",
       alignment: "left",
       hidden: false,
-      title: "TITLE / OVERVIEW OF ROUTE - ",
+      title: "Ride 4 Freedom",
       image: "./images/photo-9.JPG",
       description: "",
       location: {
@@ -82,7 +82,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 1: Working in Mozambique",
-      image: "./images/photo-2.PNG",
+      image: "./images/photo-1b.jpg",
       description:
         "The Liberty Project is a Christian faith-based non-profit established in Pemba, Northern Mozambique working with women who have been sexually exploited, abused and culturally oppressed. Our vision is to make disciples through sustainable initiatives lead by Local women. We are an organization empowering women to empower women.",
       location: {
@@ -107,7 +107,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 2: Why Mozambique?",
-      image: "./images/photo-3.PNG",
+      image: "./images/photo-11.JPG",
       description:
         "We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.",
       location: {
@@ -134,7 +134,7 @@ var config = {
       title: "STOP 3: Our Response to the Numbers",
       image: "./images/photo-1.PNG",
       description:
-        "We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.",
+        "WORDS ARE THE SAME AS STOP 4: We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.",
       location: {
         center: [-85.550095, 48.647444], // White River
         zoom: 11,
@@ -172,7 +172,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 5: Education",
-      image: "./images/photo-3.PNG",
+      image: "./images/photo-18b.jpg",
       description:
         "In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.",
       location: {
@@ -232,7 +232,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 8: Trauma Therapy",
-      image: "./images/photo-3.PNG",
+      image: "./images/photo-19b.jpg",
       description:
         "70% of Women suffer from PTSD in Mozambique, and with the growing civil unrest and violent conflict we are only seeing increases of this type of severe trauma. This is why we offer holistic care including counselling, so that women can work through things in a peaceful atmosphere. If you want to partner with us and see women restored and transformed, donate today!",
       location: {
@@ -252,7 +252,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 9: Why the Fundraiser?",
-      image: "./images/photo-1.PNG",
+      image: "./images/photo-21.JPG",
       description:
         "Our Board Chair is a cyclist and thought as a challenge wouldn't it be great to bike from her current home in Thunder Bay to her old home in Peterborough County. And thus idea was born. Thanks to Fleming College's collaboration project student team was able to build this webpage and mapping application to show case the challenge and help people get connected. We are excited to see the world wide reach of this fun fitness challenge and fundraiser.",
       location: {
@@ -352,7 +352,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "FINISH: Thank You!",
-      image: "./images/photo-3.PNG",
+      image: "./images/photo-23.jpg",
       description:
         "NEED OTHER WORDS! Thank you for following our journey & for giving! This fundraiser will continue helping women be empowered, educated and to build a life free from exploitation.                                                       If you would like to participate in the virtual challenge please follow the link to our eventbrite, you will be emailed the link to the virtual race following your registration.",
       location: {
