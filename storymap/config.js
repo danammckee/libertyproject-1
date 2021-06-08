@@ -152,7 +152,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 4: What Areas Are We Focusing On?",
-      image: "./images/photo-14b.JPG",
+      image: "./images/photo-14b.jpg",
       description:
         "The main areas that the Liberty Project works in is: Education, Health education, vocational training, trauma therapy.",
       location: {
@@ -172,7 +172,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 5: Education",
-      image: "./images/photo-18b.JPG",
+      image: "./images/photo-18b.jpg",
       description:
         "In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.",
       location: {
