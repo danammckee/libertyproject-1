@@ -152,7 +152,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 4: What Areas Are We Focusing On?",
-      image: "./images/photo-2.PNG",
+      image: "./images/photo-14b.jpg",
       description:
         "The main areas that the Liberty Project works in is: Education, Health education, vocational training, trauma therapy.",
       location: {
@@ -272,7 +272,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 10: End Exploitation",
-      image: "./images/photo-2.PNG",
+      image: "./images/photo-24.jpg",
       description:
         "95% of women in Mozambique have been sexually abused; and 70% of women suffer from PTSD. This is not okay. Throughout the global shut down for COVID-19 we have seen continual increases of exploitation and trafficking world wide. We are here in Mozambique doing preventative work to empower and educate women to help break the cycles of exploitation and poverty.",
       location: {
@@ -292,7 +292,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 11: Bringing Hope",
-      image: "./images/photo-3.PNG",
+      image: "./images/photo-5.JPG",
       description:
         "This ride has been such fun, even though it took a very different turn because of restrictions. Our Founder and Board Chair want to say a big thank you for everyone who donated, participated in the ride and shared our story with their friends & family!  We are excited to continue our journey in Northern Mozambique helping women to empower one another, & see the end of exploitation of women & children in Mozambique (& around the world).",
       location: {
@@ -371,7 +371,7 @@ var config = {
       id: "overview-2",
       alignment: "left",
       hidden: false,
-      title: "TITLE / OVERVIEW OF ROUTE - ",
+      title: "Thank you for your support from all of us at The Liberty Project",
       image: "./images/photo-1.PNG",
       description: "",
       location: {
