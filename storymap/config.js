@@ -192,7 +192,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 6: Health Education",
-      image: "./images/photo-1.PNG",
+      image: "./images/photo-7.JPG",
       description:
         "We have partnered with CouldYou? Cup to help bring accessible menstrual education & management for women & girls in Northern Mozambique.                                                         “The Could You Cup gives me security and confidence while using during my menstrual cycle. It’s the best way to prevent the shame that we receive from people! I choose Could You Cup!” - Giniquina 14 years. What a powerful testimony from this beautiful one. We are so thankful to be able to help equip girls to manage their periods in a way that ends period shaming and keeps them in school! Thank you CouldYou? Cup for your partnership, Together we bring freedom and bright futures to precious girls in Northern Mozambqiue! #menstruationmatters #TheLibertyProject #Pemba",
       location: {
@@ -212,7 +212,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 7: Vocational Training",
-      image: "./images/photo-2.PNG",
+      image: "./images/photo-6b.JPG",
       description:
         "In Northern Mozambique, 45% of women are unemployed. This  is why vocational training and education are a priority of the Liberty Project. As we are having to move to another province in Mozambique due to the conflict; partner with us to help bring vocational training to the women we work with! You can also support this through the Liberty Market Place as more of their projects are featured.",
       location: {
@@ -271,7 +271,7 @@ var config = {
       id: "stop-eleven",
       alignment: "left",
       hidden: false,
-      title: "STOP 10:End Exploitation",
+      title: "STOP 10: End Exploitation",
       image: "./images/photo-2.PNG",
       description:
         "95% of women in Mozambique have been sexually abused; and 70% of women suffer from PTSD. This is not okay. Throughout the global shut down for COVID-19 we have seen continual increases of exploitation and trafficking world wide. We are here in Mozambique doing preventative work to empower and educate women to help break the cycles of exploitation and poverty.",
@@ -312,7 +312,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 12: Moving",
-      image: "./images/photo-1.PNG",
+      image: "./images/photo-22b.jpg",
       description:
         "WOMEN! Our ladies are wonderful and are the heart of the project. It is our absolute joy to journey with them as they start to experience true freedom when knowing their identity is found in Jesus’ love and purpose for them!   As our ministry shifts to an entirely different area in Northern Mozambique, please pray that we will continue to reach and support more women. We pray that God will provide us with the resources and strength to educate and empower the vulnerable through sharing the Gospel, teaching health and human rights and equipping women with new artisanal skills..",
       location: {
@@ -332,7 +332,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 13: Partner With Us",
-      image: "./images/photo-2.PNG",
+      image: "./images/photo-20b.jpg",
       description:
         "Thank you for following our journey & for giving! This fundraiser will continue helping women be empowered, educated and to build a life free from exploitation.                                                       If you would like to participate in the virtual challenge please follow the link to our eventbrite, you will be emailed the link to the virtual race following your registration..",
       location: {
