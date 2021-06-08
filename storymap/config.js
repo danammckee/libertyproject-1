@@ -292,7 +292,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 11: Bringing Hope",
-      image: "./images/photo-5.JPG",
+      image: "./images/photo-5b.jpg",
       description:
         "This ride has been such fun, even though it took a very different turn because of restrictions. Our Founder and Board Chair want to say a big thank you for everyone who donated, participated in the ride and shared our story with their friends & family!  We are excited to continue our journey in Northern Mozambique helping women to empower one another, & see the end of exploitation of women & children in Mozambique (& around the world).",
       location: {
