@@ -132,7 +132,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 3: Our Response to the Numbers",
-      image: "./images/photo-1.PNG",
+      image: "./images/photo-10b.jpg",
       description:
         "WORDS ARE THE SAME AS STOP 4: We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.",
       location: {
@@ -372,7 +372,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Thank you for your support from all of us at The Liberty Project",
-      image: "./images/photo-1.PNG",
+      image: "./images/photo-3.JPG",
       description: "",
       location: {
         center: [-87.077195, 48.785168],
