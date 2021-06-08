@@ -82,7 +82,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 1: Working in Mozambique",
-      image: "./images/photo-1b.jpg",
+      image: "./images/photo-1b.JPG",
       description:
         "The Liberty Project is a Christian faith-based non-profit established in Pemba, Northern Mozambique working with women who have been sexually exploited, abused and culturally oppressed. Our vision is to make disciples through sustainable initiatives lead by Local women. We are an organization empowering women to empower women.",
       location: {
@@ -352,7 +352,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "FINISH: Thank You!",
-      image: "./images/photo-23.jpg",
+      image: "./images/photo-23b.jpg",
       description:
         "NEED OTHER WORDS! Thank you for following our journey & for giving! This fundraiser will continue helping women be empowered, educated and to build a life free from exploitation.                                                       If you would like to participate in the virtual challenge please follow the link to our eventbrite, you will be emailed the link to the virtual race following your registration.",
       location: {
