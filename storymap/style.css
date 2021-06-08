@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 a,
 a:hover,
@@ -70,27 +70,33 @@ a:visited {
   color: #fafafa;
   background-color: #444;
 }
+
+/* Chapters appearance whilst transisitioning between */
 .step {
   padding-bottom: 50vh;
-  /* margin-bottom: 10vh; */
+  margin-bottom: 10vh;
   opacity: 0.25;
 }
+
+/** Opacity of chapters whilst it is active */
 .step.active {
-  opacity: 0.9;
-}
-.liberty {
-  color: #3d3d3d;
-  background-color: #f3a9cc;
-  /* border: 3px solid rgba(255, 255, 255, 0.349); */
-  border-left: 20px solid rgb(184, 19, 148);
+  opacity: 0.8;
 }
 
+.liberty {
+  /* color: #3d3d3d; */
+  background-color: #f3a9cc;
+  /* border: 3px solid rgba(255, 255, 255, 0.349); */
+  /* border: 8px solid rgba(56, 55, 56, 0.144); */
+}
+/* to change p text in chapters */
 .step div {
   padding: 25px 50px;
   line-height: 25px;
-  font-size: 13px;
+  font-size: 15px;
 }
 
+/*** To change teh images within the chapters */
 .step img {
   width: 100%;
 }
