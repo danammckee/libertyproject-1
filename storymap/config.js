@@ -335,7 +335,7 @@ var config = {
       title: "STOP 13: Partner With Us",
       image: "./images/photo-20.JPG",
       description:
-        "Thank you for following our journey & for giving! This fundraiser will continue helping women be empowered, educated and to build a life free from exploitation.                                                       If you would like to participate in the virtual challenge please follow the link to our eventbrite, you will be emailed the link to the virtual race following your registration..",
+        "The work we do with our girls here in Pemba, Mozambique is made possible through the incredible people who give their time, energy and hearts to pour into the lives of our women. Together we make up Team Liberty one big family. We absolutely love those who serve with us and enjoy journeying this adventure together! Consider partnering with us for this fundraiser and all year – For ongoing updates check out our Instagram @the_libertyproject",
       location: {
         center: [-78.970271, 44.531692], // KAWARTHA LAKES
         zoom: 12,
@@ -355,7 +355,7 @@ var config = {
       title: "FINISH: Thank You!",
       image: "./images/photo-23b.jpg",
       description:
-        "NEED OTHER WORDS! Thank you for following our journey & for giving! This fundraiser will continue helping women be empowered, educated and to build a life free from exploitation.                                                       If you would like to participate in the virtual challenge please follow the link to our eventbrite, you will be emailed the link to the virtual race following your registration.",
+        "Thank you for following our journey & for giving! This fundraiser will continue helping women be empowered, educated and to build a life free from exploitation.                                                       If you would like to participate in the virtual challenge please follow the link to our eventbrite, you will be emailed the link to the virtual race following your registration.",
       location: {
         center: [-78.355723, 44.28345], //Market Hall
         zoom: 12,
