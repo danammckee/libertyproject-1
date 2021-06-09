@@ -183,200 +183,201 @@
       var scroller = scrollama();
 
       map.on("load", function () {
-        // if (config.use3dTerrain) {
-        map.addSource("mapbox-dem", {
-          type: "raster-dem",
-          url: "mapbox://mapbox.mapbox-terrain-dem-v1",
-          tileSize: 512,
-          maxzoom: 7,
-        });
-        // add the DEM source as a terrain layer with exaggerated height
-        map.setTerrain({ source: "mapbox-dem", exaggeration: 1.5 });
+        if (config.use3dTerrain) {
+          map.addSource("mapbox-dem", {
+            type: "raster-dem",
+            url: "mapbox://mapbox.mapbox-terrain-dem-v1",
+            tileSize: 512,
+            maxzoom: 14,
+          });
+          // add the DEM source as a terrain layer with exaggerated height
+          map.setTerrain({ source: "mapbox-dem", exaggeration: 1.5 });
 
-        // add a sky layer that will show when the map is highly pitched
-        map.addLayer({
-          id: "sky",
-          type: "sky",
-          paint: {
-            "sky-type": "atmosphere",
-            "sky-atmosphere-sun": [0.0, 0.0],
-            "sky-atmosphere-sun-intensity": 15,
-          },
-        });
+          // add a sky layer that will show when the map is highly pitched
+          map.addLayer({
+            id: "sky",
+            type: "sky",
+            paint: {
+              "sky-type": "atmosphere",
+              "sky-atmosphere-sun": [0.0, 0.0],
+              "sky-atmosphere-sun-intensity": 15,
+            },
+          });
 
-        // ADDING ACUSTOM ICON FOR THE STOPS USING load image with a function within. If no error then proceeds with loading image and
-        // ensurting it is added.
-        map.loadImage(
-          "https://hollieegg.github.io/libertyproject/storymap/icons/stop.png",
-          function (error, image) {
-            if (error) throw error;
+          // ADDING ACUSTOM ICON FOR THE STOPS USING load image with a function within. If no error then proceeds with loading image and
+          // ensurting it is added.
+          map.loadImage(
+            "https://hollieegg.github.io/libertyproject/storymap/icons/stop.png",
+            function (error, image) {
+              if (error) throw error;
 
-            map.addImage("stop", image);
+              map.addImage("stop", image);
 
-            map.addSource("point", {
-              type: "geojson",
-              data: "https://hollieegg.github.io/libertyproject/storymap/data/StopsOnly3.geojson",
-            });
+              map.addSource("point", {
+                type: "geojson",
+                data: "https://hollieegg.github.io/libertyproject/storymap/data/StopsOnly3.geojson",
+              });
 
-            // Add a layer to use the image to represent the data.
-            map.addLayer({
-              id: "points",
-              type: "symbol",
-              source: "point", // reference the data source
-              layout: {
-                "icon-image": "stop", // reference the image
-                "icon-size": 0.15,
-                "icon-anchor": "bottom",
-                "icon-allow-overlap": true,
-                // "icon-ignore-placement": true,
-              },
-            });
-          }
-        );
-
-        // START ICON
-
-        map.loadImage(
-          "https://hollieegg.github.io/libertyproject/storymap/icons/start.png",
-          function (error, image2) {
-            if (error) throw error;
-
-            map.addImage("start", image2);
-
-            // Add a data source containing one point feature.
-            map.addSource("startpoint", {
-              type: "geojson",
-              data: {
-                type: "FeatureCollection",
-                features: [
-                  {
-                    type: "Feature",
-                    geometry: {
-                      type: "Point",
-                      coordinates: [-89.216598, 48.434311],
-                    },
-                  },
-                ],
-              },
-            });
-
-            // Add a layer to use the image to represent the data.
-            map.addLayer({
-              id: "startingpoint",
-              type: "symbol",
-              source: "startpoint", // reference the data source
-              layout: {
-                "icon-image": "start", // reference the image
-                "icon-size": 0.25,
-                "icon-anchor": "bottom",
-              },
-            });
-          }
-        );
-
-        // Finish ICON
-
-        map.loadImage(
-          "https://hollieegg.github.io/libertyproject/storymap/icons/finish.png",
-          function (error, image3) {
-            if (error) throw error;
-
-            map.addImage("finish", image3);
-
-            // Add a data source containing one point feature.
-            map.addSource("finishpoint", {
-              type: "geojson",
-              data: {
-                type: "FeatureCollection",
-                features: [
-                  {
-                    type: "Feature",
-                    geometry: {
-                      type: "Point",
-                      coordinates: [-78.319723, 44.30345],
-                    },
-                  },
-                ],
-              },
-            });
-
-            // Add a layer to use the image to represent the data.
-            map.addLayer({
-              id: "finishingpoint",
-              type: "symbol",
-              source: "finishpoint", // reference the data source
-              layout: {
-                "icon-image": "finish", // reference the image
-                "icon-size": 0.25,
-                "icon-anchor": "bottom",
-              },
-            });
-          }
-        );
-
-        // ROUTE LINE ///
-        map.addSource("route", {
-          type: "geojson",
-          data: "https://hollieegg.github.io/libertyproject/storymap/data/directionsOnly.geojson",
-        });
-        map.addLayer({
-          id: "route",
-          type: "line",
-          source: "route",
-          layout: {
-            "line-sort-key": 1,
-            "line-join": "round",
-            "line-cap": "round",
-          },
-          paint: {
-            "line-color": "#777",
-            "line-width": 7,
-          },
-        });
-
-        // setup the instance, pass callback functions
-        scroller
-          .setup({
-            step: ".step",
-            offset: 0.5,
-            progress: true,
-          })
-          .onStepEnter((response) => {
-            var chapter = config.chapters.find(
-              (chap) => chap.id === response.element.id
-            );
-            response.element.classList.add("active");
-            map[chapter.mapAnimation || "flyTo"](chapter.location);
-            if (config.showMarkers) {
-              marker.setLngLat(chapter.location.center);
-            }
-            if (chapter.onChapterEnter.length > 0) {
-              chapter.onChapterEnter.forEach(setLayerOpacity);
-            }
-            if (chapter.callback) {
-              window[chapter.callback]();
-            }
-            if (chapter.rotateAnimation) {
-              map.once("moveend", function () {
-                const rotateNumber = map.getBearing();
-                map.rotateTo(rotateNumber + 90, {
-                  duration: 24000,
-                  easing: function (t) {
-                    return t;
-                  },
-                });
+              // Add a layer to use the image to represent the data.
+              map.addLayer({
+                id: "points",
+                type: "symbol",
+                source: "point", // reference the data source
+                layout: {
+                  "icon-image": "stop", // reference the image
+                  "icon-size": 0.15,
+                  "icon-anchor": "bottom",
+                  "icon-allow-overlap": true,
+                  // "icon-ignore-placement": true,
+                },
               });
             }
-          })
-          .onStepExit((response) => {
-            var chapter = config.chapters.find(
-              (chap) => chap.id === response.element.id
-            );
-            response.element.classList.remove("active");
-            if (chapter.onChapterExit.length > 0) {
-              chapter.onChapterExit.forEach(setLayerOpacity);
+          );
+
+          // START ICON
+
+          map.loadImage(
+            "https://hollieegg.github.io/libertyproject/storymap/icons/start.png",
+            function (error, image2) {
+              if (error) throw error;
+
+              map.addImage("start", image2);
+
+              // Add a data source containing one point feature.
+              map.addSource("startpoint", {
+                type: "geojson",
+                data: {
+                  type: "FeatureCollection",
+                  features: [
+                    {
+                      type: "Feature",
+                      geometry: {
+                        type: "Point",
+                        coordinates: [-89.216598, 48.434311],
+                      },
+                    },
+                  ],
+                },
+              });
+
+              // Add a layer to use the image to represent the data.
+              map.addLayer({
+                id: "startingpoint",
+                type: "symbol",
+                source: "startpoint", // reference the data source
+                layout: {
+                  "icon-image": "start", // reference the image
+                  "icon-size": 0.25,
+                  "icon-anchor": "bottom",
+                },
+              });
             }
+          );
+
+          // Finish ICON
+
+          map.loadImage(
+            "https://hollieegg.github.io/libertyproject/storymap/icons/finish.png",
+            function (error, image3) {
+              if (error) throw error;
+
+              map.addImage("finish", image3);
+
+              // Add a data source containing one point feature.
+              map.addSource("finishpoint", {
+                type: "geojson",
+                data: {
+                  type: "FeatureCollection",
+                  features: [
+                    {
+                      type: "Feature",
+                      geometry: {
+                        type: "Point",
+                        coordinates: [-78.319723, 44.30345],
+                      },
+                    },
+                  ],
+                },
+              });
+
+              // Add a layer to use the image to represent the data.
+              map.addLayer({
+                id: "finishingpoint",
+                type: "symbol",
+                source: "finishpoint", // reference the data source
+                layout: {
+                  "icon-image": "finish", // reference the image
+                  "icon-size": 0.25,
+                  "icon-anchor": "bottom",
+                },
+              });
+            }
+          );
+
+          // ROUTE LINE ///
+          map.addSource("route", {
+            type: "geojson",
+            data: "https://hollieegg.github.io/libertyproject/storymap/data/directionsOnly.geojson",
           });
+          map.addLayer({
+            id: "route",
+            type: "line",
+            source: "route",
+            layout: {
+              "line-sort-key": 1,
+              "line-join": "round",
+              "line-cap": "round",
+            },
+            paint: {
+              "line-color": "#777",
+              "line-width": 7,
+            },
+          });
+
+          // setup the instance, pass callback functions
+          scroller
+            .setup({
+              step: ".step",
+              offset: 0.5,
+              progress: true,
+            })
+            .onStepEnter((response) => {
+              var chapter = config.chapters.find(
+                (chap) => chap.id === response.element.id
+              );
+              response.element.classList.add("active");
+              map[chapter.mapAnimation || "flyTo"](chapter.location);
+              if (config.showMarkers) {
+                marker.setLngLat(chapter.location.center);
+              }
+              if (chapter.onChapterEnter.length > 0) {
+                chapter.onChapterEnter.forEach(setLayerOpacity);
+              }
+              if (chapter.callback) {
+                window[chapter.callback]();
+              }
+              if (chapter.rotateAnimation) {
+                map.once("moveend", function () {
+                  const rotateNumber = map.getBearing();
+                  map.rotateTo(rotateNumber + 90, {
+                    duration: 24000,
+                    easing: function (t) {
+                      return t;
+                    },
+                  });
+                });
+              }
+            })
+            .onStepExit((response) => {
+              var chapter = config.chapters.find(
+                (chap) => chap.id === response.element.id
+              );
+              response.element.classList.remove("active");
+              if (chapter.onChapterExit.length > 0) {
+                chapter.onChapterExit.forEach(setLayerOpacity);
+              }
+            });
+        }
       });
       // setup resize event
       window.addEventListener("resize", scroller.resize);
