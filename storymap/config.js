@@ -19,7 +19,7 @@ var config = {
       title: "Ride 4 Freedom",
       image: "./images/photo-4.JPG",
       description:
-        "Join us on the journey of the fundraiser route! Along the way at each stop, you will learn more about Mozambique and The Liberty Project.",
+        "Join us on the journey of the fundraiser route! As you scroll through the map you will learn more about Mozambique and The Liberty Project at each stop.",
       location: {
         center: [-87.077195, 45.785168],
         zoom: 5,
@@ -53,7 +53,7 @@ var config = {
       // label: "<h1/>START</h1>",
       image: "./images/photo-17.jpg",
       description:
-        "Thank you for joining with us to partner in Mozambique, at the beginning of this ride we are going to be leaving from Thunder Bay’s Marina park! We are excited you can join us from around the world to help women in Mozambique and get fit in the process! If you haven’t yet registered for our virtual challenge go sign up for with My Virtual Mission. If you’d rather donate check out our great swag available at different levels with Donor Box. Thanks to our great team for making this happen!",
+        "Thank you for joining with us to partner in Mozambique, at the beginning of this ride we are going to be leaving from Thunder Bay’s Marina park! We are excited you can join us from around the world to help women in Mozambique and get fit in the process! If you haven’t yet registered for our virtual challenge go sign up for it with My Virtual Mission (through Eventbrite registration). If you’d rather donate check out our great swag available at different levels with Donorbox. Thanks to our great team for making this happen!",
       location: {
         center: [-89.235, 48.43437],
         zoom: 13,
@@ -135,7 +135,7 @@ var config = {
       title: "STOP 3: Our Response to the Numbers",
       image: "./images/photo-19b.jpg",
       description:
-        "SAME WORDS AS STOP 2: We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.",
+        "We were the first Christian faith-based organisation in Cabo Delgado, the northernmost Province of Mozambique, and now are pioneering again in Nacala, Northern Mozambique. We have a focus of working with women affected by sexual exploitation, abuse, and cultural oppression. We confront these issues through discipleship, basic education and vocational training and life skills. We empower each woman, working side by side with her in relationship to bring true identity and freedom bringing transformation to families and communities.",
       location: {
         center: [-85.580095, 48.647444], // White River
         zoom: 12,
@@ -155,7 +155,7 @@ var config = {
       title: "STOP 4: What Areas Are We Focusing On?",
       image: "./images/photo-14b.jpg",
       description:
-        "The main areas that the Liberty Project works in is: Education, Health education, vocational training, trauma therapy.",
+        "The main areas that The Liberty Project works in is: Basic Health, Human Rights and Literacy Education Vocational Training, and Social Enterprise.",
       location: {
         center: [-84.88697, 48.041381], // WAWA
         zoom: 12,
@@ -175,7 +175,7 @@ var config = {
       title: "STOP 5: Education",
       image: "./images/photo-18b.jpg",
       description:
-        "In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.",
+        "In Mozambique, over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.",
       location: {
         center: [-84.798093, 47.452679], // LAKE SUPERIOR
         zoom: 12,
@@ -195,7 +195,7 @@ var config = {
       title: "STOP 6: Health Education",
       image: "./images/photo-7.JPG",
       description:
-        "We have partnered with CouldYou? Cup to help bring accessible menstrual education & management for women & girls in Northern Mozambique.                                                         “The Could You Cup gives me security and confidence while using during my menstrual cycle. It’s the best way to prevent the shame that we receive from people! I choose Could You Cup!” - Giniquina 14 years. What a powerful testimony from this beautiful one. We are so thankful to be able to help equip girls to manage their periods in a way that ends period shaming and keeps them in school! Thank you CouldYou? Cup for your partnership, Together we bring freedom and bright futures to precious girls in Northern Mozambqiue! #menstruationmatters #TheLibertyProject #Pemba",
+        "We have partnered with  CouldYou? Cup to help bring accessible menstrual education & management for women & girls in Northern Mozambique.                                                         “The CouldYou? Cup gives me security and confidence while using during my menstrual cycle. It’s the best way to prevent the shame that we receive from people! I choose Could You Cup!” - Giniquina 14 years. What a powerful testimony from this beautiful one. We are so thankful to be able to help equip girls to manage their periods in a way that ends period shaming and keeps them in school! Thank you CouldYou? Cup for your partnership, Together we bring freedom and bright futures to precious girls in Northern Mozambqiue! #MenstruationMatters #TheLibertyProject #Pemba",
       location: {
         center: [-84.316667, 46.521092], // Sault Ste. Marie
         zoom: 12,
@@ -215,7 +215,7 @@ var config = {
       title: "STOP 7: Vocational Training",
       image: "./images/photo-6b.jpg",
       description:
-        "In Northern Mozambique, 45% of women are unemployed. This  is why vocational training and education are a priority of the Liberty Project. As we are having to move to another province in Mozambique due to the conflict; partner with us to help bring vocational training to the women we work with! You can also support this through the Liberty Market Place as more of their projects are featured.",
+        "In Northern Mozambique, 45% of women are unemployed. This is why vocational training and education are a priority of The Liberty Project. As we are having to relocate to another province in Mozambique due to conflict; we will be establishing an artisan workshop in our new location; partner with us to help bring vocational training to the women we work with!",
       location: {
         center: [-83.791296, 46.300395], // Bruce Mines
         zoom: 13,
@@ -235,7 +235,7 @@ var config = {
       title: "STOP 8: Trauma Therapy",
       image: "./images/photo-13b.jpg",
       description:
-        "70% of Women suffer from PTSD in Mozambique, and with the growing civil unrest and violent conflict we are only seeing increases of this type of severe trauma. This is why we offer holistic care including counselling, so that women can work through things in a peaceful atmosphere. If you want to partner with us and see women restored and transformed, donate today!",
+        "70% of Women suffer from PTSD in Mozambique, and with the growing civil unrest and violent conflict we are only seeing increases of this type of severe trauma. This is why we offer holistic care including pastoral counselling, so that women can work through things in a peaceful atmosphere. If you want to partner with us and see women restored and transformed, donate today!",
       location: {
         center: [-82.952829, 46.1790651], // Blind River
         zoom: 15,
@@ -255,7 +255,7 @@ var config = {
       title: "STOP 9: Why the Fundraiser?",
       image: "./images/photo-21.JPG",
       description:
-        "Our Board Chair is a cyclist and thought as a challenge wouldn't it be great to bike from her current home in Thunder Bay to her old home in Peterborough County. And thus idea was born. Thanks to Fleming College's collaboration project student team was able to build this webpage and mapping application to show case the challenge and help people get connected. We are excited to see the world wide reach of this fun fitness challenge and fundraiser.",
+        "Our Board Chair is a cyclist and thought that as a challenge ,wouldn't it be great to bike from her current home in Thunder Bay to her old home in Peterborough County! And thus the idea was born. Thanks to Fleming College's collaboration project, the student team was able to build this webpage and web mapping application to show case the challenge and help people get connected. We are excited to see the world wide reach of this fun fitness challenge and fundraiser.",
       location: {
         center: [-81.796291, 46.249662], // Espanola
         zoom: 12,
@@ -275,7 +275,7 @@ var config = {
       title: "STOP 10: End Exploitation",
       image: "./images/photo-8.JPG",
       description:
-        "95% of women in Mozambique have been sexually abused; and 70% of women suffer from PTSD. This is not okay. Throughout the global shut down for COVID-19 we have seen continual increases of exploitation and trafficking world wide. We are here in Mozambique doing preventative work to empower and educate women to help break the cycles of exploitation and poverty.",
+        "95% of women in Mozambique have been sexually abused; and 70% of women suffer from PTSD. This is not okay. Throughout the global shut down for COVID-19 we have seen continual increases of exploitation and trafficking world wide. We are here in Northern Mozambique doing preventative work through empowering and educateing women to help them break the cycle of vulnerability and poverty.",
       location: {
         center: [-81.056687, 46.465716], //  SUDBURY
         zoom: 11,
@@ -295,7 +295,7 @@ var config = {
       title: "STOP 11: Bringing Hope",
       image: "./images/photo-5b.jpg",
       description:
-        "This ride has been such fun, even though it took a very different turn because of restrictions. Our Founder and Board Chair want to say a big thank you for everyone who donated, participated in the ride and shared our story with their friends & family!  We are excited to continue our journey in Northern Mozambique helping women to empower one another, & see the end of exploitation of women & children in Mozambique (& around the world).",
+        "This ride has been such fun, even though it has taken a very different turn because of Covid restrictions. Our Founder Laura and Board Chair Sarah want to say a big thank you to everyone who donated, participated in the ride and shared our story with their friends and family so far!  We are excited to continue our journey in Northern Mozambique helping women to empower one another, and see the end of exploitation of women and children in Mozambique!",
       location: {
         center: [-80.424973, 45.576305], //  Point au Baril
         zoom: 11.5,
@@ -315,7 +315,7 @@ var config = {
       title: "STOP 12: Moving",
       image: "./images/photo-22b.jpg",
       description:
-        "WOMEN! Our ladies are wonderful and are the heart of the project. It is our absolute joy to journey with them as they start to experience true freedom when knowing their identity is found in Jesus’ love and purpose for them!   As our ministry shifts to an entirely different area in Northern Mozambique, please pray that we will continue to reach and support more women. We pray that God will provide us with the resources and strength to educate and empower the vulnerable through sharing the Gospel, teaching health and human rights and equipping women with new artisanal skills..",
+        "WOMEN! Our ladies are wonderful and are the heart of the project. It is our absolute joy to journey with them as they start to experience true freedom when knowing their identity is found in Jesus’ love and purpose for them!   As our ministry shifts to an entirely different area in Northern Mozambique, please pray that we will continue to reach and support more women. We pray that God will provide us with the resources and strength to educate and empower the vulnerable through sharing the Gospel, teaching health and human rights and equipping women with new artisanal skills.",
       location: {
         center: [-79.7811328, 45.16831], // Parry Sound
         zoom: 13,
@@ -355,7 +355,7 @@ var config = {
       title: "FINISH: Thank You!",
       image: "./images/photo-23b.jpg",
       description:
-        "Thank you for following our journey & for giving! This fundraiser will continue helping women be empowered, educated and to build a life free from exploitation.                                                       If you would like to participate in the virtual challenge please follow the link to our eventbrite, you will be emailed the link to the virtual race following your registration.",
+        "Thank you for following our journey & for giving! This fundraiser will continue helping women be empowered, educated and to build a life free from exploitation.                                                       If you would like to participate in the virtual challenge please follow the link to the Eventbrite to register where you will be emailed the link to the virtual race following your registration.",
       location: {
         center: [-78.355723, 44.28345], //Market Hall
         zoom: 12,
