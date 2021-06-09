@@ -53,7 +53,7 @@ var config = {
       // label: "<h1/>START</h1>",
       image: "./images/photo-17.jpg",
       description:
-        "NEEDS NEW WORDS - SAME AS STOP 1! The Liberty Project is a Christian faith-based non-profit established in Pemba, Northern Mozambique working with women who have been sexually exploited, abused and culturally oppressed. Our vision is to make disciples through sustainable initiatives lead by Local women. We are an organization empowering women to empower women.",
+        "Thank you for joining with us to partner in Mozambique, at the beginning of this ride we are going to be leaving from Thunder Bay’s Marina park! We are excited you can join us from around the world to help women in Mozambique and get fit in the process! If you haven’t yet registered for our virtual challenge go sign up for with My Virtual Mission. If you’d rather donate check out our great swag available at different levels with Donor Box. Thanks to our great team for making this happen!",
       location: {
         center: [-89.235, 48.43437],
         zoom: 13,
