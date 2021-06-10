@@ -84,7 +84,7 @@ var config = {
       hidden: false,
       title: "START: Mozambique and The Liberty Project",
       // label: "<h1/>START</h1>",
-      image: "./images/photo-17.jpg",
+      // image: "./images/photo-17.jpg",
       description:
         "If you haven’t yet registered for our virtual challenge go sign up for it with My Virtual Mission (through Eventbrite registration). If you’d rather donate check out our great swag available at different levels with Donorbox. Thanks to our great team for making this happen!",
       location: {
@@ -93,7 +93,7 @@ var config = {
         pitch: 60,
         bearing: 10,
       },
-      // mapAnimation: "flyTo",
+      mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
