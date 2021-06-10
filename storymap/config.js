@@ -16,7 +16,7 @@ var config = {
       id: "overview",
       alignment: "left",
       hidden: false,
-      title: "Ride 4 Freedom",
+      title: "RIDE 4 FREEDOM",
       image: "./images/photo-4.JPG",
       description:
         "Join us on the journey of the fundraiser route! As you scroll through the map you will learn more about Mozambique and The Liberty Project at each stop.",

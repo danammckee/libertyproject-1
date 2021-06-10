@@ -84,24 +84,47 @@ a:visited {
   opacity: 0.9;
 }
 
+/** HEADINGS FOR CHAPTERS */
+#features h3 {
+  font-weight: 700;
+  color: #333435;
+  font-size: 18px;
+  letter-spacing: 1px;
+  background-color: #fefdeff3;
+  border-radius: 3px;
+  padding: 5px;
+  margin-bottom: 0px;
+  text-align: center;
+  /* text-shadow: 0 0 1px #fefdef; */
+}
+
+#features p {
+  font-size: 15px;
+  font-family: helvetica;
+  color: #333435;
+  /* background-color: #fefdefe0;
+  margin-top: 0px;
+  padding: 5px; */
+}
+
 .liberty {
   /* color: #3d3d3d; */
   background-color: #f3a9cc;
-  /* border: 3px solid rgba(255, 255, 255, 0.349); */
-  /* border: 8px solid rgba(56, 55, 56, 0.144); */
 }
+
 /* to change p text in chapters */
 .step div {
   padding: 25px 50px;
   line-height: 25px;
-  font-size: 15px;
-  color: #333435;
   border-radius: 8px;
 }
 
 /*** To change teh images within the chapters */
 .step img {
   width: 100%;
+  /* border-style: solid;
+  border-width: 5px;
+  border-color: #fefdeff3; */
 }
 
 @media (max-width: 750px) {
