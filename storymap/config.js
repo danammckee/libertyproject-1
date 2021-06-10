@@ -168,7 +168,7 @@ var config = {
       title: "STOP 3: Our Response to the Numbers",
       image: "./images/photo-19b.jpg",
       description:
-        "We were the first Christian faith-based organisation in Cabo Delgado, the northernmost Province of Mozambique, and now are pioneering again in Nacala, Northern Mozambique. We have a focus of working with women affected by sexual exploitation, abuse, and cultural oppression. We confront these issues through discipleship, basic education and vocational training and life skills. We empower each woman, working side by side with her in relationship to bring true identity and freedom bringing transformation to families and communities.",
+        "We were the first Christian faith-based organisation in Cabo Delgado, the northernmost Province of Mozambique, and now are pioneering again in Nacala, Northern Mozambique. We have a focus of working with women affected by sexual exploitation, abuse, and cultural oppression.",
       location: {
         center: [-85.580095, 48.647444], // White River
         zoom: 12,
@@ -181,6 +181,28 @@ var config = {
       onChapterEnter: [{}],
       onChapterExit: [],
     },
+
+    {
+      id: "stop-three-cont",
+      alignment: "left",
+      hidden: false,
+      title: "STOP 3: Our Response to the Numbers",
+      // image: "./images/photo-19b.jpg",
+      description:
+        "We confront these issues through discipleship, basic education and vocational training and life skills. We empower each woman, working side by side with her in relationship to bring true identity and freedom bringing transformation to families and communities.",
+      location: {
+        center: [-85.580095, 48.647444], // White River
+        zoom: 12,
+        pitch: 70,
+        bearing: 25,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [{}],
+      onChapterExit: [],
+    },
+
     {
       id: "stop-four",
       alignment: "left",
@@ -228,7 +250,27 @@ var config = {
       title: "STOP 6: Health Education",
       image: "./images/photo-7.JPG",
       description:
-        "We have partnered with  CouldYou? Cup to help bring accessible menstrual education & management for women & girls in Northern Mozambique.                                                         “The CouldYou? Cup gives me security and confidence while using during my menstrual cycle. It’s the best way to prevent the shame that we receive from people! I choose Could You Cup!” - Giniquina 14 years. What a powerful testimony from this beautiful one. We are so thankful to be able to help equip girls to manage their periods in a way that ends period shaming and keeps them in school! Thank you CouldYou? Cup for your partnership, Together we bring freedom and bright futures to precious girls in Northern Mozambqiue! #MenstruationMatters #TheLibertyProject #Pemba",
+        "We have partnered with  CouldYou? Cup to help bring accessible menstrual education & management for women & girls in Northern Mozambique.                                                         “The CouldYou? Cup gives me security and confidence while using during my menstrual cycle. It’s the best way to prevent the shame that we receive from people! I choose Could You Cup!” - Giniquina 14 years. What a powerful testimony from this beautiful one.",
+      location: {
+        center: [-84.316667, 46.521092], // Sault Ste. Marie
+        zoom: 12,
+        pitch: 60,
+        bearing: 20,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [{}],
+      onChapterExit: [],
+    },
+    {
+      id: "stop-six-cont",
+      alignment: "left",
+      hidden: false,
+      title: "STOP 6: Health Education",
+      // image: "./images/photo-7.JPG",
+      description:
+        "We are so thankful to be able to help equip girls to manage their periods in a way that ends period shaming and keeps them in school! Thank you CouldYou? Cup for your partnership, Together we bring freedom and bright futures to precious girls in Northern Mozambqiue! #MenstruationMatters #TheLibertyProject #Pemba",
       location: {
         center: [-84.316667, 46.521092], // Sault Ste. Marie
         zoom: 12,
