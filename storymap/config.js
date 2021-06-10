@@ -82,7 +82,7 @@ var config = {
       id: "slug-style-id-cont",
       alignment: "left",
       hidden: false,
-      title: "START: Mozambique and The Liberty Project",
+      title: "START: Thunder Bay",
       // label: "<h1/>START</h1>",
       // image: "./images/photo-17.jpg",
       description:
