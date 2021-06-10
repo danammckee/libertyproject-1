@@ -53,7 +53,7 @@ var config = {
       // label: "<h1/>START</h1>",
       image: "./images/photo-17.jpg",
       description:
-        "Thank you for joining with us to partner in Mozambique, at the beginning of this ride we are going to be leaving from Thunder Bay’s Marina park! We are excited you can join us from around the world to help women in Mozambique and get fit in the process! If you haven’t yet registered for our virtual challenge go sign up for it with My Virtual Mission (through Eventbrite registration). If you’d rather donate check out our great swag available at different levels with Donorbox. Thanks to our great team for making this happen!",
+        "Thank you for joining with us to partner in Mozambique, at the beginning of this ride we are going to be leaving from Thunder Bay’s Marina park! We are excited you can join us from around the world to help women in Mozambique and get fit in the process! ",
       location: {
         center: [-89.235, 48.43437],
         zoom: 13,
@@ -61,6 +61,39 @@ var config = {
         bearing: 10,
       },
       mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+        {},
+        // {
+        //     layer: 'stops-along-route',
+        //     opacity: 1
+        //     // duration: 5000
+        // }
+      ],
+      onChapterExit: [
+        // {
+        //     layer: 'layer-name',
+        //     opacity: 0
+        // }
+      ],
+    },
+    {
+      id: "slug-style-id-cont",
+      alignment: "left",
+      hidden: false,
+      title: "START: Mozambique and The Liberty Project",
+      // label: "<h1/>START</h1>",
+      image: "./images/photo-17.jpg",
+      description:
+        "If you haven’t yet registered for our virtual challenge go sign up for it with My Virtual Mission (through Eventbrite registration). If you’d rather donate check out our great swag available at different levels with Donorbox. Thanks to our great team for making this happen!",
+      location: {
+        center: [-89.235, 48.43437],
+        zoom: 13,
+        pitch: 60,
+        bearing: 10,
+      },
+      // mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
