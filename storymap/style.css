@@ -95,7 +95,8 @@ a:visited {
   padding: 25px 50px;
   line-height: 25px;
   font-size: 15px;
-  color: #58595b;
+  color: #333435;
+  border-radius: 8px;
 }
 
 /*** To change teh images within the chapters */
