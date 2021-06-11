@@ -347,7 +347,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 10: End Exploitation",
-      image: "./images/photo-8.JPG",
+      image: "./images/photo-8c.png",
       description:
         "95% of women in Mozambique have been sexually abused; and 70% of women suffer from PTSD. This is not okay. Throughout the global shut down for COVID-19 we have seen continual increases of exploitation and trafficking world wide. We are here in Northern Mozambique doing preventative work through empowering and educateing women to help them break the cycle of vulnerability and poverty.",
       location: {
