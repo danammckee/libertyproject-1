@@ -7,7 +7,7 @@ var config = {
   // showPopup: true,
   theme: "liberty",
   use3dTerrain: true,
-  title: "USE THE SCROLL ON THE MAP TO VIEW EACH STOP ON THE JOURNEY.",
+  title: "SCROLL THE MAP TO VIEW EACH STOP ALONG THE JOURNEY.",
   //  "Use the scroll on the map to view each stop on the journey.",
   // subtitle: 'A descriptive and interesting subtitle to draw in the reader',
   // byline: 'By a Digital Storyteller',
