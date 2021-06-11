@@ -82,8 +82,8 @@ var config = {
       id: "slug-style-id-cont",
       alignment: "left",
       hidden: false,
-      title: "START: Thunder Bay",
-      image: "./images/photo-17c.jpg",
+      title: "START: Mozambique and The Liberty Project",
+      image: "./images/photo-1.PNG",
       description:
         "If you haven’t yet registered for our virtual challenge go sign up for it with My Virtual Mission (through Eventbrite registration). If you’d rather donate check out our great swag available at different levels with Donorbox. Thanks to our great team for making this happen!",
       location: {
@@ -186,7 +186,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 3: Our Response to the Numbers",
-      image: "./images/photo-19b.jpg",
+      image: "./images/photo-2c.jpg",
       description:
         "We confront these issues through discipleship, basic education and vocational training and life skills. We empower each woman, working side by side with her in relationship to bring true identity and freedom bringing transformation to families and communities.",
       location: {
@@ -267,7 +267,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 6: Health Education",
-      image: "./images/photo-7.JPG",
+      image: "./images/photo-21.JPG",
       description:
         "We are so thankful to be able to help equip girls to manage their periods in a way that ends period shaming and keeps them in school! Thank you CouldYou? Cup for your partnership, Together we bring freedom and bright futures to precious girls in Northern Mozambqiue! #MenstruationMatters #TheLibertyProject #Pemba",
       location: {
@@ -347,7 +347,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 10: End Exploitation",
-      image: "./images/photo-8c.png",
+      image: "./images/photo-8d.jpg",
       description:
         "95% of women in Mozambique have been sexually abused; and 70% of women suffer from PTSD. This is not okay. Throughout the global shut down for COVID-19 we have seen continual increases of exploitation and trafficking world wide. We are here in Northern Mozambique doing preventative work through empowering and educateing women to help them break the cycle of vulnerability and poverty.",
       location: {
