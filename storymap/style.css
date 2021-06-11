@@ -21,7 +21,7 @@ a:visited {
   width: 100%;
   position: relative;
   z-index: 5;
-  background-color: rgba(138, 138, 138, 0.842);
+  background-color: rgba(151, 151, 151, 0.842);
 }
 #header h1,
 #header h2,
@@ -37,7 +37,7 @@ a:visited {
 #footer {
   width: 100%;
   min-height: 5vh;
-  background-color: rgba(138, 138, 138, 0.842);
+  background-color: rgba(151, 151, 151, 0.842);
   color: #333435;
   font-family: helvetica;
   /* padding-top: 2vh;
