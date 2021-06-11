@@ -87,6 +87,7 @@ a:visited {
 /** HEADINGS FOR CHAPTERS */
 #features h3 {
   font-weight: 800;
+  font-family: Helvetica;
   color: #333435;
   font-size: 18px;
   letter-spacing: 0.5px;
