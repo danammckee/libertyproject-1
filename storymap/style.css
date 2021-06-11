@@ -21,6 +21,7 @@ a:visited {
   position: relative;
   z-index: 5;
   background-color: rgb(190, 190, 190);
+  color: rgb(63, 62, 62);
 }
 #header h1,
 #header h2,
