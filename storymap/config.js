@@ -51,7 +51,7 @@ var config = {
       hidden: false,
       title: "START: Mozambique and The Liberty Project",
       // label: "<h1/>START</h1>",
-      image: "./images/photo-17.jpg",
+      image: "./images/photo-17c.jpg",
       description:
         "Thank you for joining with us to partner in Mozambique, at the beginning of this ride we are going to be leaving from Thunder Bay’s Marina park! We are excited you can join us from around the world to help women in Mozambique and get fit in the process! ",
       location: {
@@ -83,7 +83,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "START: Thunder Bay",
-      image: "./images/photo-17.jpg",
+      image: "./images/photo-17c.jpg",
       description:
         "If you haven’t yet registered for our virtual challenge go sign up for it with My Virtual Mission (through Eventbrite registration). If you’d rather donate check out our great swag available at different levels with Donorbox. Thanks to our great team for making this happen!",
       location: {
@@ -115,7 +115,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 1: Working in Mozambique",
-      image: "./images/photo-1b.JPG",
+      image: "./images/photo-1c.jpg",
       description:
         "The Liberty Project is a Christian faith-based non-profit established in Pemba, Northern Mozambique working with women who have been sexually exploited, abused and culturally oppressed. Our vision is to make disciples through sustainable initiatives lead by Local women. We are an organization empowering women to empower women.",
       location: {
@@ -207,7 +207,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 4: What Areas Are We Focusing On?",
-      image: "./images/photo-14b.jpg",
+      image: "./images/photo-14c.jpg",
       description:
         "The main areas that The Liberty Project works in is: Basic Health, Human Rights and Literacy Education Vocational Training, and Social Enterprise.",
       location: {
@@ -227,7 +227,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 5: Education",
-      image: "./images/photo-18b.jpg",
+      image: "./images/photo-18c.jpg",
       description:
         "In Mozambique, over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.",
       location: {
@@ -287,7 +287,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 7: Vocational Training",
-      image: "./images/photo-6b.jpg",
+      image: "./images/photo-6c.jpg",
       description:
         "In Northern Mozambique, 45% of women are unemployed. This is why vocational training and education are a priority of The Liberty Project. As we are having to relocate to another province in Mozambique due to conflict; we will be establishing an artisan workshop in our new location; partner with us to help bring vocational training to the women we work with!",
       location: {
@@ -307,7 +307,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 8: Trauma Therapy",
-      image: "./images/photo-13b.jpg",
+      image: "./images/photo-13c.jpg",
       description:
         "70% of Women suffer from PTSD in Mozambique, and with the growing civil unrest and violent conflict we are only seeing increases of this type of severe trauma. This is why we offer holistic care including pastoral counselling, so that women can work through things in a peaceful atmosphere. If you want to partner with us and see women restored and transformed, donate today!",
       location: {
@@ -367,7 +367,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 11: Bringing Hope",
-      image: "./images/photo-5b.jpg",
+      image: "./images/photo-5c.jpg",
       description:
         "This ride has been such fun, even though it has taken a very different turn because of Covid restrictions. Our Founder Laura and Board Chair Sarah want to say a big thank you to everyone who donated, participated in the ride and shared our story with their friends and family so far!  We are excited to continue our journey in Northern Mozambique helping women to empower one another, and see the end of exploitation of women and children in Mozambique!",
       location: {
@@ -427,7 +427,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "FINISH: Thank You!",
-      image: "./images/photo-23b.jpg",
+      image: "./images/photo-23c.jpg",
       description:
         "Thank you for following our journey & for giving! This fundraiser will continue helping women be empowered, educated and to build a life free from exploitation.                                                       If you would like to participate in the virtual challenge please follow the link to the Eventbrite to register where you will be emailed the link to the virtual race following your registration.",
       location: {
