@@ -11,8 +11,8 @@ var config = {
   title: "SCROLL THE MAP TO VIEW EACH STOP ALONG THE JOURNEY.",
   // subtitle: 'A descriptive and interesting subtitle to draw in the reader',
   // byline: 'By a Digital Storyteller',
-  footer: "Source: source citations, etc.",
-
+  footer:
+    "Made with <a href= https://www.mapbox.com/>Mapbox</a> and <a href= https://blog.mapbox.com/how-to-build-a-scrollytelling-map-ead6baf2cd1b>Mapbox resources.</a> Content provided by The Liberty Project.",
   // Chapter Content
   // Use description to alter text
   // image for the image link
