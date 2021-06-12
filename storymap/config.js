@@ -1,17 +1,22 @@
 var config = {
+  // Refernence the mapbox style here
   style: "mapbox://styles/vanritto/ckpeq5qti0hqv17qfe1nxbpe1",
   accessToken:
+    // Replace with clients accessToken
     "pk.eyJ1IjoidmFucml0dG8iLCJhIjoiY2ttd3MwbmIxMGh2azJubjh5NHpmbWloaSJ9.cHakwI5tJ_9g4G56n5tlFQ",
   showMarkers: false,
-  // markerColor: "#3FB1CE",
-  // showPopup: true,
   theme: "liberty",
+  // true or false to turn 3D terrain on/off
   use3dTerrain: true,
   title: "SCROLL THE MAP TO VIEW EACH STOP ALONG THE JOURNEY.",
-  //  "Use the scroll on the map to view each stop on the journey.",
   // subtitle: 'A descriptive and interesting subtitle to draw in the reader',
   // byline: 'By a Digital Storyteller',
   footer: "Source: source citations, etc.",
+
+  // Chapter Content
+  // Use description to alter text
+  // image for the image link
+  // Location for camera positioning
   chapters: [
     {
       id: "overview",
@@ -30,28 +35,14 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [
-        {
-          // layer: 'stops-along-route',
-          // opacity: 0,
-          //     layer: 'layer-name',
-          //     opacity: 1,
-          //     duration: 5000
-        },
-      ],
-      onChapterExit: [
-        // {{}
-        //     layer: 'layer-name',
-        //     opacity: 0
-        // }
-      ],
+      onChapterEnter: [{}],
+      onChapterExit: [],
     },
     {
       id: "slug-style-id",
       alignment: "left",
       hidden: false,
       title: "START: Mozambique and The Liberty Project",
-      // label: "<h1/>START</h1>",
       image: "./images/photo-17c.jpg",
       description:
         "Thank you for joining with us to partner in Mozambique, at the beginning of this ride we are going to be leaving from Thunder Bay’s Marina park! We are excited you can join us from around the world to help women in Mozambique and get fit in the process! ",
@@ -64,20 +55,8 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [
-        {},
-        // {
-        //     layer: 'stops-along-route',
-        //     opacity: 1
-        //     // duration: 5000
-        // }
-      ],
-      onChapterExit: [
-        // {
-        //     layer: 'layer-name',
-        //     opacity: 0
-        // }
-      ],
+      onChapterEnter: [{}],
+      onChapterExit: [],
     },
     {
       id: "slug-style-id-cont",
@@ -96,20 +75,8 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [
-        {},
-        // {
-        //     layer: 'stops-along-route',
-        //     opacity: 1
-        //     // duration: 5000
-        // }
-      ],
-      onChapterExit: [
-        // {
-        //     layer: 'layer-name',
-        //     opacity: 0
-        // }
-      ],
+      onChapterEnter: [{}],
+      onChapterExit: [],
     },
     {
       id: "stop-one",
@@ -128,12 +95,7 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [
-        {
-          // layer: 'stops-along-route',
-          // opacity: 1,
-        },
-      ],
+      onChapterEnter: [{}],
       onChapterExit: [],
     },
     {
@@ -153,12 +115,7 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [
-        {
-          // layer: 'stops-along-route',
-          // opacity: 1,
-        },
-      ],
+      onChapterEnter: [{}],
       onChapterExit: [],
     },
     {
@@ -460,22 +417,8 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [
-        {
-          //   layer: "stops-along-route",
-          //   opacity: 0,
-          //     layer: 'layer-name',
-          //     opacity: 1,
-          //     duration: 5000
-        },
-      ],
-      onChapterExit: [
-        {},
-        // {
-        //     layer: 'layer-name',
-        //     opacity: 0
-        // }
-      ],
+      onChapterEnter: [{}],
+      onChapterExit: [{}],
     },
   ],
 };

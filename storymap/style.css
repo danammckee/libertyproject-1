@@ -16,16 +16,10 @@ a:visited {
 }
 
 #header {
-  /* margin: auto; */
-  /* padding: -2px; */
   width: 100%;
   position: relative;
   z-index: 5;
   background-color: #475561d8;
-  /* border-bottom: #2e2f30; */
-  /* border-style: solid;
-  border-color: #f3a9cc;
-  border-width: thick; */
 }
 #header h1,
 #header h2,
@@ -37,7 +31,6 @@ a:visited {
   font-family: helvetica;
   font-size: 13px;
   letter-spacing: 0.9px;
-  /* text-shadow: 0.2px 0.2px 1px #fefdeff3; */
 }
 #footer {
   width: 100%;
@@ -97,7 +90,7 @@ a:visited {
   opacity: 0.9;
 }
 
-/** HEADINGS FOR CHAPTERS */
+/** Headings for Chapters */
 #features h3 {
   font-weight: 800;
   font-family: helvetica;
@@ -105,11 +98,9 @@ a:visited {
   font-size: 16px;
   letter-spacing: 0.9px;
   background-color: #fefdeff3;
-  /* border-radius: 2px; */
   padding: 5px;
   margin-bottom: 0px;
   text-align: center;
-  /* text-shadow: 0 0 1px #fefdef; */
 }
 
 #features p {
@@ -125,23 +116,19 @@ a:visited {
 }
 
 .liberty {
-  /* color: #3d3d3d; */
   background-color: #f3a9cc;
 }
 
-/* to change slides */
+/* Chapter slides */
 .step div {
   padding: 18px 0px 18px;
   line-height: 25px;
   border-radius: 8px;
 }
 
-/*** To change teh images within the chapters */
+/* Images within the chapters */
 .step img {
   width: 100%;
-  /* border-style: solid;
-  border-width: 5px;
-  border-color: #fefdeff3; */
 }
 
 @media (max-width: 750px) {

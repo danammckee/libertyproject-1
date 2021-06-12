@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Mapbox Storytelling</title>
+    <title>The Liberty Project</title>
     <meta
       name="viewport"
       content="initial-scale=1,maximum-scale=1,user-scalable=no"
@@ -193,8 +193,8 @@
             },
           });
 
-          // ADDING ACUSTOM ICON FOR THE STOPS USING load image with a function within. If no error then proceeds with loading image and
-          // ensurting it is added.
+          // Adding Custom Icon for stops. First, load image with a function within. If no error then proceeds with loading image and
+          // ensuring it is added.
           map.loadImage(
             "https://hollieegg.github.io/libertyproject/storymap/icons/stop.png",
             function (error, image) {
@@ -202,6 +202,7 @@
 
               map.addImage("stop", image);
 
+              // Add the GeoJSON source for the Stops
               map.addSource("point", {
                 type: "geojson",
                 data: "https://hollieegg.github.io/libertyproject/storymap/data/Stops.geojson",
@@ -224,7 +225,6 @@
           );
 
           // START ICON
-
           map.loadImage(
             "https://hollieegg.github.io/libertyproject/storymap/icons/start.png",
             function (error, image2) {
@@ -264,7 +264,6 @@
           );
 
           // Finish ICON
-
           map.loadImage(
             "https://hollieegg.github.io/libertyproject/storymap/icons/finish.png",
             function (error, image3) {
@@ -303,7 +302,8 @@
             }
           );
 
-          // ROUTE LINE ///
+          // ROUTE LINE //
+          // GeoJSON source referenced here. Line features changed here.
           map.addSource("route", {
             type: "geojson",
             data: "https://hollieegg.github.io/libertyproject/storymap/data/directions.geojson",
