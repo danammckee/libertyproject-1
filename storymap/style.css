@@ -42,8 +42,8 @@ a:visited {
 #footer {
   width: 100%;
   min-height: 5vh;
-  background-color: rgba(151, 151, 151, 0.842);
-  color: #333435;
+  background-color: #475561d8;
+  color: #e9e9e9;
   font-family: helvetica;
   /* padding-top: 2vh;
   padding-bottom: 2vh; */
@@ -109,8 +109,6 @@ a:visited {
   padding: 5px;
   margin-bottom: 0px;
   text-align: center;
-  border-bottom-style: solid;
-  border-bottom-color: ;
   /* text-shadow: 0 0 1px #fefdef; */
 }
 
