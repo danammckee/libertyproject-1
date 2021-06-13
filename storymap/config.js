@@ -12,7 +12,7 @@ var config = {
   // subtitle: 'A descriptive and interesting subtitle to draw in the reader',
   // byline: 'By a Digital Storyteller',
   footer:
-    "Made with <a href= https://www.mapbox.com/>Mapbox</a> and <a href= https://blog.mapbox.com/how-to-build-a-scrollytelling-map-ead6baf2cd1b>Mapbox Resources.</a> Content provided by The Liberty Project.",
+    "Made with <a href= https://www.mapbox.com/>Mapbox</a> with refernce to <a href= https://blog.mapbox.com/how-to-build-a-scrollytelling-map-ead6baf2cd1b>Mapbox Resources.</a> Content provided by The Liberty Project.",
   // Chapter Content
   // Use description to alter text
   // image for the image link
