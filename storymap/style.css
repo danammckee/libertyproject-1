@@ -35,13 +35,13 @@ a:visited {
 }
 #footer {
   width: 100%;
-  min-height: 5vh;
+  /* min-height: 3vh; */
   background-color: #475561d8;
   color: #eeeeee;
   font-family: helvetica;
-  padding: 1vh 2vw;
+  padding: 0.5vh 2vw;
   text-align: center;
-  line-height: 20px;
+  line-height: 10px;
   font-size: 13px;
   position: relative;
   z-index: 5;
@@ -107,8 +107,6 @@ a:visited {
   font-size: 15px;
   font-family: helvetica;
   color: #333435;
-  /* background-color: #fefdeff3; */
-  /* margin: 0px; */
   padding: 5px;
   letter-spacing: 0.3px;
   font-weight: 500;
