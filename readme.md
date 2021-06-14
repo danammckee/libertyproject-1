@@ -2,15 +2,28 @@
 
 ## Guide and Instructions
 
-### File Structure
+### Contents and File Structure
 
-- where evertything is stored
-- where images ect stored
+#### Files:
+
+- index.html
+- config.js
+- style.css
+
+#### Folders:
+
+- data - Containing geojson files
+  - directions.geojson (full route directions)
+  - Stops.geojson (stops along the route)
+- icons - All custom icons in png format
+- images - All images present in the chapters
 
 ### Mapbox Style and Access Token
 
-- What lines to insert the style URL
-- What Line /file to insert Mapbox API
+The Mapbox style and Acceess Token must be changed.
+To change the style please refer to line.... of the config.js file ......
+
+To change the MApbox Access Token please refer to......
 
 ### Chapters
 
