@@ -1,16 +1,18 @@
-\*The Liberty Project Fundraiser Map
+# The Liberty Project Fundraiser Web Map
 
-\*\*Guide and Instructions
+## Guide and Instructions
 
-File Structure
+### File Structure
 
 - where evertything is stored
 - where images ect stored
 
-Mapbox Style and Access Token
+### Mapbox Style and Access Token
 
 - What lines to insert the style URL
 - What Line /file to insert Mapbox API
+
+### Chapters
 
 config.js file
 chapters
@@ -18,24 +20,25 @@ chapters
 - Where to change the text
 - camera positioning
 
+### GeoJSON sorces
+
 index.html
-GeoJSON sorces
 
 - where the GeoJSONS are referenced
 - Layers are here incl icons and route line
 - Terrain exageration set
 
-Photos
+### Images
 
 - who they belong to = The Liberty Project
 
-Data
+### Data
 
 - Original Spatial data provided by the Liberty Project. Modified by Vanritto
 - directions.geojson file contains the directions of the entire route
 - Stops.geojson contains the stops along the route.
 
-Icons
+### Icons
 
 - where Icons from
   finish.png is the Icon being used for the finish point
@@ -48,5 +51,7 @@ Icons
   Where got Start and FInish icons originally
 
 Any
-References
+
+#### References
+
 template on git and mapbox resources
