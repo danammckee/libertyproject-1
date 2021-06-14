@@ -41,15 +41,26 @@ a:hover {
   width: 100%;
   /* min-height: 3vh; */
   background-color: #475561d8;
-  color: #eeeeee;
-  font-family: helvetica;
-  padding: 10px 0px 10px;
-  text-align: center;
-  line-height: 10px;
-  font-size: 13px;
+  /* color: #eeeeee; */
+  /* font-family: helvetica; */
+  /* padding: 10px 0px 10px; */
+  /* text-align: center; */
+  /* line-height: 10px; */
+  /* font-size: 13px; */
   position: relative;
   z-index: 5;
 }
+
+#footer p {
+  font-size: 13px;
+  color: #eeeeee;
+  font-family: helvetica;
+  text-align: center;
+  padding: 2vh 2vw;
+  /* padding: 10px 0px 10px; */
+  /* line-height: 10px; */
+}
+
 #features {
   padding-top: 10vh;
   padding-bottom: 10vh;
