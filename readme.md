@@ -27,13 +27,16 @@ To change the MApbox Access Token please refer to......
 
 ### Chapters
 
-config.js file
-chapters
+Content and configuration for the chapters can be found in the config.js file.
+To change the text of the chapters plese refer to the 'description' of each chapter. To change
+the title of the chapters please refer to the 'title' line within each chapter block. Images can
+also be changed here unded the 'images' line. Drop any new images into the image folder and
+change the name in the file path present in the chapter code.
 
-- Where to change the text
-- camera positioning
+Camera positioning can be found within the same chapter blocks under the location parameter.
+The centering coordinate, zoom, pitch and bearing can be altered if required.
 
-### GeoJSON sorces
+### GeoJSON sources
 
 index.html
 
