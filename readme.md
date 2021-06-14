@@ -36,37 +36,20 @@ change the name in the file path present in the chapter code.
 Camera positioning can be found within the same chapter blocks under the location parameter.
 The centering coordinate, zoom, pitch and bearing can be altered if required.
 
-### GeoJSON sources
+### GeoJSON
 
-index.html
+GeoJSON files are referenced in the index.html file.
 
 - where the GeoJSONS are referenced
 - Layers are here incl icons and route line
 - Terrain exageration set
 
-### Images
+### Data Sources
 
-- who they belong to = The Liberty Project
-
-### Data
-
-- Original Spatial data provided by the Liberty Project. Modified by Vanritto
-- directions.geojson file contains the directions of the entire route
-- Stops.geojson contains the stops along the route.
-
-### Icons
-
-- where Icons from
-  finish.png is the Icon being used for the finish point
-  start.png
-  stop.png
-  Illustrator
-  Used to fully create the Stops icon
-  Used to edit the Start and Finish icons
-  Freepik
-  Where got Start and FInish icons originally
-
-Any
+- Original Spatial data provided by the Liberty Project. Modified by Vanritto.
+- Images and content provided by The Liberty Project.
+- Icon stop.png created by Vanritto
+- Icons start.png and finish.png sourced from www.freepik.com and edited by Vanritto.
 
 #### References
 
