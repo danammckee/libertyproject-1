@@ -23,6 +23,13 @@ Icons
   start.png
   stop.png
 
+Illustrator
+Used to fully create the Stops icon
+Used to edit the Start and Finish icons
+
+Freepik
+Where got Start and FInish icons originally
+
 Images
 
 References
