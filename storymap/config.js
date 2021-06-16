@@ -285,7 +285,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "STOP 9: Why the Fundraiser?",
-      image: "./images/bike-1.JPG",
+      image: "./images/bike-1.jpg",
       description:
         "Our Board Chair is a cyclist and thought that as a challenge ,wouldn't it be great to bike from her current home in Thunder Bay to her old home in Peterborough County! And thus the idea was born. Thanks to Fleming College's collaboration project, the student team was able to build this webpage and web mapping application to show case the challenge and help people get connected. We are excited to see the world wide reach of this fun fitness challenge and fundraiser.",
       location: {
