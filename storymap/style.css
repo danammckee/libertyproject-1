@@ -93,7 +93,7 @@ a:hover {
 .step {
   padding-bottom: 45vh;
   margin-bottom: 10vh;
-  opacity: 0.25;
+  opacity: 0;
 }
 
 /** Opacity of chapters whilst it is active */
