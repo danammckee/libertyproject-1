@@ -91,7 +91,7 @@ a:hover {
 
 /* Chapters appearance whilst transisitioning between */
 .step {
-  padding-bottom: 20vh;
+  padding-bottom: 45vh;
   margin-bottom: 6vh;
   opacity: 1;
 }
