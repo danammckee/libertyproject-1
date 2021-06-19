@@ -13,8 +13,7 @@ var config = {
   // byline: 'By a Digital Storyteller',
   footer:
     "Made with <a href= https://www.mapbox.com/ target=_blank>Mapbox</a> resources. Content provided by The Liberty Project.",
-  // Chapter Content
-  // Use description to alter text
+  // Chapter Content- use description to alter text
   // image for the image link
   // Location for camera positioning
   chapters: [
