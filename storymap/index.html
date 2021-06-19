@@ -195,119 +195,110 @@
 
           // Adding Custom Icon for stops. First, load image with a function within. If no error then proceeds with loading image and
           // ensuring it is added.
-          map.loadImage(
-            "https://hollieegg.github.io/libertyproject/storymap/icons/stop.png",
-            function (error, image) {
-              if (error) throw error;
+          map.loadImage("./icons/stop.png", function (error, image) {
+            if (error) throw error;
 
-              map.addImage("stop", image);
+            map.addImage("stop", image);
 
-              // Add the GeoJSON source for the Stops CHANGE URL HERE
-              map.addSource("point", {
-                type: "geojson",
-                data: "https://hollieegg.github.io/libertyproject/storymap/data/Stops.geojson",
-              });
+            // Add the GeoJSON source for the Stops CHANGE URL HERE
+            map.addSource("point", {
+              type: "geojson",
+              data: "./data/Stops.geojson",
+            });
 
-              // Add a layer to use the image to represent the data.
-              map.addLayer({
-                id: "points",
-                type: "symbol",
-                source: "point", // reference the data source
-                layout: {
-                  "icon-image": "stop", // reference the image
-                  "icon-size": 0.18,
-                  "icon-anchor": "bottom",
-                  "icon-allow-overlap": true,
-                  // "icon-ignore-placement": true,
-                },
-              });
-            }
-          );
+            // Add a layer to use the image to represent the data.
+            map.addLayer({
+              id: "points",
+              type: "symbol",
+              source: "point", // reference the data source
+              layout: {
+                "icon-image": "stop", // reference the image
+                "icon-size": 0.18,
+                "icon-anchor": "bottom",
+                "icon-allow-overlap": true,
+                // "icon-ignore-placement": true,
+              },
+            });
+          });
 
           // START ICON
-          map.loadImage(
-            "https://hollieegg.github.io/libertyproject/storymap/icons/start.png",
-            function (error, image2) {
-              if (error) throw error;
+          map.loadImage("./icons/start.png", function (error, image2) {
+            if (error) throw error;
 
-              map.addImage("start", image2);
+            map.addImage("start", image2);
 
-              // Add a data source containing one point feature.
-              map.addSource("startpoint", {
-                type: "geojson",
-                data: {
-                  type: "FeatureCollection",
-                  features: [
-                    {
-                      type: "Feature",
-                      geometry: {
-                        type: "Point",
-                        coordinates: [-89.216598, 48.434311],
-                      },
+            // Add a data source containing one point feature.
+            map.addSource("startpoint", {
+              type: "geojson",
+              data: {
+                type: "FeatureCollection",
+                features: [
+                  {
+                    type: "Feature",
+                    geometry: {
+                      type: "Point",
+                      coordinates: [-89.216598, 48.434311],
                     },
-                  ],
-                },
-              });
+                  },
+                ],
+              },
+            });
 
-              // Add a layer to use the image to represent the data.
-              map.addLayer({
-                id: "startingpoint",
-                type: "symbol",
-                source: "startpoint", // reference the data source
-                layout: {
-                  "icon-image": "start", // reference the image
-                  "icon-size": 0.22,
-                  "icon-anchor": "bottom",
-                },
-              });
-            }
-          );
+            // Add a layer to use the image to represent the data.
+            map.addLayer({
+              id: "startingpoint",
+              type: "symbol",
+              source: "startpoint", // reference the data source
+              layout: {
+                "icon-image": "start", // reference the image
+                "icon-size": 0.22,
+                "icon-anchor": "bottom",
+              },
+            });
+          });
 
           // Finish ICON
-          map.loadImage(
-            "https://hollieegg.github.io/libertyproject/storymap/icons/finish.png",
-            function (error, image3) {
-              if (error) throw error;
+          map.loadImage("./icons/finish.png", function (error, image3) {
+            if (error) throw error;
 
-              map.addImage("finish", image3);
+            map.addImage("finish", image3);
 
-              // Add a data source containing one point feature.
-              map.addSource("finishpoint", {
-                type: "geojson",
-                data: {
-                  type: "FeatureCollection",
-                  features: [
-                    {
-                      type: "Feature",
-                      geometry: {
-                        type: "Point",
-                        coordinates: [-78.319723, 44.30345],
-                      },
+            // Add a data source containing one point feature.
+            map.addSource("finishpoint", {
+              type: "geojson",
+              data: {
+                type: "FeatureCollection",
+                features: [
+                  {
+                    type: "Feature",
+                    geometry: {
+                      type: "Point",
+                      coordinates: [-78.319723, 44.30345],
                     },
-                  ],
-                },
-              });
+                  },
+                ],
+              },
+            });
 
-              // Add a layer to use the image to represent the data.
-              map.addLayer({
-                id: "finishingpoint",
-                type: "symbol",
-                source: "finishpoint", // reference the data source
-                layout: {
-                  "icon-image": "finish", // reference the image
-                  "icon-size": 0.22,
-                  "icon-anchor": "bottom",
-                  "icon-allow-overlap": true,
-                },
-              });
-            }
-          );
+            // Add a layer to use the image to represent the data.
+            map.addLayer({
+              id: "finishingpoint",
+              type: "symbol",
+              source: "finishpoint", // reference the data source
+              layout: {
+                "icon-image": "finish", // reference the image
+                "icon-size": 0.22,
+                "icon-anchor": "bottom",
+                "icon-allow-overlap": true,
+              },
+            });
+          });
 
           // ROUTE LINE //
           // GeoJSON source referenced here. Line features changed here.
           map.addSource("route", {
             type: "geojson",
-            data: "https://hollieegg.github.io/libertyproject/storymap/data/directions.geojson",
+            data: "./data/directions.geojson",
           });
           map.addLayer({
             id: "route",
