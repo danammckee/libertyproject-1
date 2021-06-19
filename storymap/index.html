@@ -195,34 +195,31 @@
 
           // Adding Custom Icon for stops. First, load image with a function within. If no error then proceeds with loading image and
           // ensuring it is added.
-          map.loadImage(
-            "https://hollieegg.github.io/libertyproject/storymap/icons/stop.png",
-            function (error, image) {
-              if (error) throw error;
+          map.loadImage("./icons/stop.png", function (error, image) {
+            if (error) throw error;
 
-              map.addImage("stop", image);
+            map.addImage("stop", image);
 
-              // Add the GeoJSON source for the Stops
-              map.addSource("point", {
-                type: "geojson",
-                data: "https://hollieegg.github.io/libertyproject/storymap/data/Stops.geojson",
-              });
+            // Add the GeoJSON source for the Stops CHANGE URL HERE
+            map.addSource("point", {
+              type: "geojson",
+              data: "https://hollieegg.github.io/libertyproject/storymap/data/Stops.geojson",
+            });
 
-              // Add a layer to use the image to represent the data.
-              map.addLayer({
-                id: "points",
-                type: "symbol",
-                source: "point", // reference the data source
-                layout: {
-                  "icon-image": "stop", // reference the image
-                  "icon-size": 0.18,
-                  "icon-anchor": "bottom",
-                  "icon-allow-overlap": true,
-                  // "icon-ignore-placement": true,
-                },
-              });
-            }
-          );
+            // Add a layer to use the image to represent the data.
+            map.addLayer({
+              id: "points",
+              type: "symbol",
+              source: "point", // reference the data source
+              layout: {
+                "icon-image": "stop", // reference the image
+                "icon-size": 0.18,
+                "icon-anchor": "bottom",
+                "icon-allow-overlap": true,
+                // "icon-ignore-placement": true,
+              },
+            });
+          });
 
           // START ICON
           map.loadImage(
