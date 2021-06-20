@@ -44,7 +44,7 @@ var config = {
       title: "START: Mozambique and The Liberty Project",
       image: "./images/photo-17c.jpg",
       description:
-        "Thank you for joining with us to partner in Mozambique, at the beginning of this ride we are going to be leaving from Thunder Bay’s Marina park! We are excited you can join us from around the world to help women in Mozambique and get fit in the process! ",
+        "Thank you for joining with us to partner in Mozambique. At the beginning of this ride we are going to be leaving from Thunder Bay’s Marina park! We are excited you can join us from around the world to help women in Mozambique and get fit in the process! ",
       location: {
         center: [-89.235, 48.43437],
         zoom: 13,
@@ -64,7 +64,7 @@ var config = {
       title: "START: Mozambique and The Liberty Project",
       image: "./images/photo-1.PNG",
       description:
-        "If you haven’t yet registered for our virtual challenge go sign up for it with My Virtual Mission (through Eventbrite registration). If you’d rather donate check out our great swag available at different levels with Donorbox. Thanks to our great team for making this happen!",
+        "If you haven’t yet registered for our virtual challenge, sign up for it through Eventbrite using the REGISTER button on the webpage where you will be brough to the My Virtual Mission portal. If you’d rather donate check out our great swag available at different levels with Donorbox. Thanks to our great team for making this happen!",
       location: {
         center: [-89.235, 48.43437],
         zoom: 13,
@@ -104,7 +104,7 @@ var config = {
       title: "STOP 2: Why Mozambique?",
       image: "./images/photo-11.JPG",
       description:
-        "We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.",
+        "We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.",
       location: {
         center: [-87.195, 48.795168], //Terrace Bay
         zoom: 11,
@@ -124,7 +124,7 @@ var config = {
       title: "STOP 3: Our Response to the Numbers",
       image: "./images/photo-19b.jpg",
       description:
-        "We were the first Christian faith-based organisation in Cabo Delgado, the northernmost Province of Mozambique, and now are pioneering again in Nacala, Northern Mozambique. We have a focus of working with women affected by sexual exploitation, abuse, and cultural oppression.",
+        "We were the first Christian faith-based organization in Cabo Delgado, the northernmost Province of Mozambique, and now are pioneering again in Nacala, Northern Mozambique. We have a focus of working with women affected by sexual exploitation, abuse, and cultural oppression.",
       location: {
         center: [-85.580095, 48.647444], // White River
         zoom: 12,
@@ -286,7 +286,7 @@ var config = {
       title: "STOP 9: Why the Fundraiser?",
       image: "./images/bike-1.jpg",
       description:
-        "Our Board Chair is a cyclist and thought that as a challenge ,wouldn't it be great to bike from her current home in Thunder Bay to her old home in Peterborough County! And thus the idea was born. Thanks to Fleming College's collaboration project, the student team was able to build this webpage and web mapping application to show case the challenge and help people get connected. We are excited to see the world wide reach of this fun fitness challenge and fundraiser.",
+        "Our Board Chair is a cyclist and thought that as a challenge, wouldn't it be great to bike from her current home in Thunder Bay to her old home in Peterborough County! And thus the idea was born. Thanks to Fleming College GIS collaboration project, the student team was able to build this webpage and web mapping application to show case the challenge and help people get connected. We are excited to see the world wide reach of this fun fitness challenge and fundraiser.",
       location: {
         center: [-81.796291, 46.249662], // Espanola
         zoom: 12,
@@ -366,7 +366,7 @@ var config = {
       title: "STOP 13: Partner With Us",
       image: "./images/photo-20.JPG",
       description:
-        "The work we do with our girls here in Pemba, Mozambique is made possible through the incredible people who give their time, energy and hearts to pour into the lives of our women. Together we make up Team Liberty one big family. We absolutely love those who serve with us and enjoy journeying this adventure together! Consider partnering with us for this fundraiser and all year – For ongoing updates check out our Instagram @the_libertyproject",
+        "The work we do with our girls here in Pemba, Mozambique is made possible through the incredible people who give their time, energy and hearts to pour into the lives of our women. Together we make up Team Liberty as one big family. We absolutely love those who serve with us and enjoy journeying this adventure together! Consider partnering with us for this fundraiser and all year – For ongoing updates check out our Instagram @the_libertyproject",
       location: {
         center: [-78.970271, 44.531692], // KAWARTHA LAKES
         zoom: 12,
@@ -386,7 +386,7 @@ var config = {
       title: "FINISH: Thank You!",
       image: "./images/photo-23c.jpg",
       description:
-        "Thank you for following our journey & for giving! This fundraiser will continue helping women be empowered, educated and to build a life free from exploitation.                                                       If you would like to participate in the virtual challenge please follow the link to the Eventbrite to register where you will be emailed the link to the virtual race following your registration.",
+        "Thank you for following our journey & for giving! This fundraiser will continue helping women be empowered, educated and to build a life free from exploitation.                                                       If you would like to participate in the virtual challenge click on one of the REGISTER buttons to register for the event on Eventbrite where you will be emailed the link to the virtual race following your registration.",
       location: {
         center: [-78.355723, 44.28345], //Market Hall
         zoom: 12,
