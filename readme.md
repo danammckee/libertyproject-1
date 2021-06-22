@@ -15,11 +15,18 @@ General notes for the repository.
 
 #### Folders:
 
-- Data - containing geojson files
-  - irections.geojson (full route directions)
-  - Stops.geojson (stops along the route)
-- Icons - all custom icons in png format
-- Images - all images present in the chapters
+1. **Data** (containing geojson files)
+
+- directions.geojson (full route directions)
+- Stops.geojson (stops along the route)
+
+2. **Icons**
+
+- All custom icons in png format
+
+3. **Images**
+
+- All images present in the chapters
 
 ### Mapbox Style and Access Token
 
@@ -30,16 +37,16 @@ To change the Mapbox Access Token please refer to line 6 of the config.js file.
 ### Chapters
 
 Content and configuration for the chapters can be found in the config.js file.
-To change the text of the chapters plese refer to the 'description' of each chapter.
+To change the text of the chapters please refer to the 'description' of each chapter.
 To change the title of the chapters please refer to the 'title' line within each
 chapter block. Images can also be changed here under the 'images' line. Drop any new
 images into the image folder and change the name in the file path present in the chapter
 code to the name and file extension of the image.
 
-Please note: If images changed and the sizes are different, this can change the sizing and look of the
-chapter boxes displayed.
+Please note: If images changed and the sizes are different, this can change the sizing and
+look of the chapter boxes displayed on the map.
 
-Camera positioning can be found within the same chapter blocks under the location parameter.
+Camera positioning can be found within the same chapter code blocks under the location parameter.
 The centering coordinate, zoom, pitch and bearing can be altered if required. For more information
 on exploring chapter features visit the following link
 
@@ -68,17 +75,17 @@ the corresponding Icon layers for these two locations.
 The custom icons are referenced in the index.html file with local folder paths.
 They can be found in the following locations:
 
-1. Start Icon
+1. **Start Icon**
 
 - File name: start.png
 - This icon is referenced on line 225 of the index.html file.
 
-2. Finish Icon
+2. **Finish Icon**
 
 - File name: finish.png
 - This icon is referenced in line 261 of the index.html file.
 
-3. Stops Icon
+3. **Stops Icon**
 
 - File name: stop.png
 - This icon is referenced in line 198 of the index.html file.
@@ -87,18 +94,19 @@ They can be found in the following locations:
 
 The 3D terrain can be turned off if required. To do this please refer to line 10
 in the config.js file. The 'use3dTerrain:' can be set to false to turn of the 3D
-exageration.
+exageration. The hillshading terrain layer can be turned off on the custom style
+in Mapbox Studio.
 
 ### Data Sources
 
-- Original Spatial data provided by the Liberty Project. Modified by Vanritto.
+- Original Spatial data provided by The Liberty Project. Modified by Vanritto.
 - Images and content provided by The Liberty Project.
 - Icon stop.png created by Vanritto
 - Icons start.png and finish.png sourced from www.freepik.com and edited by Vanritto.
 
 ### References
 
-All code modifications were made with refence to Mapbox documentation library
+All code modifications were made with reference to the Mapbox documentation library
 which can be found here:
 
 [link](https://docs.mapbox.com/)
