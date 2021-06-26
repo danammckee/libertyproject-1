@@ -44,7 +44,7 @@ var config = {
       title: "START: Mozambique and The Liberty Project",
       image: "./images/photo-17c.jpg",
       description:
-        "Thank you for joining with us to partner in Mozambique. At the beginning of this ride we are going to be leaving from Thunder Bay’s Marina park! We are excited you can join us from around the world to help women in Mozambique and get fit in the process! ",
+        "Thank you for joining with us to partner in Mozambique. At the beginning of this ride, we are going to be leaving from Thunder Bay’s Marina park! We are excited you can join us from around the world to help women in Mozambique and get fit in the process! ",
       location: {
         center: [-89.235, 48.43437],
         zoom: 13,
@@ -226,7 +226,7 @@ var config = {
       title: "STOP 6: Health Education",
       image: "./images/photo-21.JPG",
       description:
-        "We are so thankful to be able to help equip girls to manage their periods in a way that ends period shaming and keeps them in school! Thank you CouldYou? Cup for your partnership, Together we bring freedom and bright futures to precious girls in Northern Mozambqiue! #MenstruationMatters #TheLibertyProject #Pemba",
+        "We are so thankful to be able to help equip girls to manage their periods in a way that ends period shaming and keeps them in school! Thank you CouldYou? Cup for your partnership, Together, we bring freedom and bright futures to precious girls in Northern Mozambqiue! #MenstruationMatters #TheLibertyProject #Pemba",
       location: {
         center: [-84.316667, 46.521092], // Sault Ste. Marie
         zoom: 12,
@@ -286,7 +286,7 @@ var config = {
       title: "STOP 9: Why the Fundraiser?",
       image: "./images/bike-1.jpg",
       description:
-        "Our Board Chair is a cyclist and thought that as a challenge, wouldn't it be great to bike from her current home in Thunder Bay to her old home in Peterborough County! And thus the idea was born. Thanks to Fleming College GIS collaboration project, the student team was able to build this webpage and web mapping application to show case the challenge and help people get connected. We are excited to see the world wide reach of this fun fitness challenge and fundraiser.",
+        "Our Board Chair is a cyclist and thought that as a challenge, wouldn't it be great to bike from her current home in Thunder Bay to her old home in Peterborough County! And thus, the idea was born. Thanks to Fleming College GIS collaboration project, the student team was able to build this webpage and web mapping application to show case the challenge and help people get connected. We are excited to see the world-wide reach of this fun fitness challenge and fundraiser.",
       location: {
         center: [-81.796291, 46.249662], // Espanola
         zoom: 12,
@@ -306,7 +306,7 @@ var config = {
       title: "STOP 10: End Exploitation",
       image: "./images/photo-8d.jpg",
       description:
-        "95% of women in Mozambique have been sexually abused; and 70% of women suffer from PTSD. This is not okay. Throughout the global shut down for COVID-19 we have seen continual increases of exploitation and trafficking world wide. We are here in Northern Mozambique doing preventative work through empowering and educateing women to help them break the cycle of vulnerability and poverty.",
+        "95% of women in Mozambique have been sexually abused; and 70% of women suffer from PTSD. This is not okay. Throughout the global shut down for COVID-19 we have seen continual increases of exploitation and trafficking world-wide. We are here in Northern Mozambique doing preventative work through empowering and educateing women to help them break the cycle of vulnerability and poverty.",
       location: {
         center: [-81.056687, 46.465716], //  SUDBURY
         zoom: 11,
